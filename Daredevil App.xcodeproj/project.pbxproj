@@ -14,6 +14,9 @@
 		4439AC51288FD48E000CD1E2 /* FeaturedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC50288FD48E000CD1E2 /* FeaturedCharacterView.swift */; };
 		4439AC56288FD64F000CD1E2 /* ComicsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC55288FD64F000CD1E2 /* ComicsListView.swift */; };
 		4439AC58288FD676000CD1E2 /* ComicStoresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC57288FD676000CD1E2 /* ComicStoresListView.swift */; };
+		44ADADE6288FE581003E3D3A /* Characters.json in Resources */ = {isa = PBXBuildFile; fileRef = 44ADADE5288FE581003E3D3A /* Characters.json */; };
+		44ADADE8288FE6A5003E3D3A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADADE7288FE6A5003E3D3A /* Character.swift */; };
+		44ADADEA288FE760003E3D3A /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADADE9288FE760003E3D3A /* CharactersModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,10 @@
 		4439AC50288FD48E000CD1E2 /* FeaturedCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCharacterView.swift; sourceTree = "<group>"; };
 		4439AC55288FD64F000CD1E2 /* ComicsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsListView.swift; sourceTree = "<group>"; };
 		4439AC57288FD676000CD1E2 /* ComicStoresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicStoresListView.swift; sourceTree = "<group>"; };
+		44ADADE5288FE581003E3D3A /* Characters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Characters.json; sourceTree = "<group>"; };
+		44ADADE7288FE6A5003E3D3A /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		44ADADE9288FE760003E3D3A /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		44ADADEE288FF3C2003E3D3A /* Daredevil-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Daredevil-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,7 @@
 		4439AC3B288FC632000CD1E2 /* Daredevil App */ = {
 			isa = PBXGroup;
 			children = (
+				44ADADEE288FF3C2003E3D3A /* Daredevil-App-Info.plist */,
 				4439AC4D288FC66D000CD1E2 /* Resources */,
 				4439AC4C288FC668000CD1E2 /* Models */,
 				4439AC4B288FC662000CD1E2 /* Views */,
@@ -79,6 +87,7 @@
 		4439AC4A288FC659000CD1E2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				44ADADE9288FE760003E3D3A /* CharactersModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -97,6 +106,7 @@
 		4439AC4C288FC668000CD1E2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				44ADADE7288FE6A5003E3D3A /* Character.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -104,6 +114,7 @@
 		4439AC4D288FC66D000CD1E2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				44ADADE5288FE581003E3D3A /* Characters.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -190,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44ADADE6288FE581003E3D3A /* Characters.json in Resources */,
 				4439AC44288FC633000CD1E2 /* Preview Assets.xcassets in Resources */,
 				4439AC41288FC633000CD1E2 /* Assets.xcassets in Resources */,
 			);
@@ -204,7 +216,9 @@
 			files = (
 				4439AC56288FD64F000CD1E2 /* ComicsListView.swift in Sources */,
 				4439AC3F288FC632000CD1E2 /* HomeView.swift in Sources */,
+				44ADADEA288FE760003E3D3A /* CharactersModel.swift in Sources */,
 				4439AC51288FD48E000CD1E2 /* FeaturedCharacterView.swift in Sources */,
+				44ADADE8288FE6A5003E3D3A /* Character.swift in Sources */,
 				4439AC58288FD676000CD1E2 /* ComicStoresListView.swift in Sources */,
 				4439AC3D288FC632000CD1E2 /* Daredevil_AppApp.swift in Sources */,
 			);
@@ -337,6 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Daredevil App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daredevil-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -365,6 +380,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Daredevil App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daredevil-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

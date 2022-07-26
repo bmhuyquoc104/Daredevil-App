@@ -12,6 +12,8 @@ struct Daredevil_AppApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
+                // Assign environment object to the top roof and will be use later by other views at the deeper level
+                .environmentObject(CharacterModel())
         }
     }
 }

@@ -11,8 +11,8 @@ struct HomeView: View {
     init() {
       
 
-           UITabBar.appearance().isTranslucent = false
-           UITabBar.appearance().unselectedItemTintColor = UIColor(Color.primary)
+        UITabBar.appearance().backgroundColor = UIColor(Color("primary"))
+           UITabBar.appearance().unselectedItemTintColor = UIColor(Color("white"))
            UITabBar.appearance().barTintColor = UIColor(Color("secondary"))
         
        
