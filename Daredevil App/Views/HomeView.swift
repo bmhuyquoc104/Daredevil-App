@@ -8,9 +8,51 @@
 import SwiftUI
 
 struct HomeView: View {
+    init() {
+      
+
+           UITabBar.appearance().isTranslucent = false
+           UITabBar.appearance().unselectedItemTintColor = UIColor(Color.primary)
+           UITabBar.appearance().barTintColor = UIColor(Color("secondary"))
+        
+       
+       }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        // Create tabview for display purposes
+        TabView{
+            //  Main feature character view
+            FeaturedCharacterView().tabItem {
+                VStack{
+                    Image(systemName: "character")
+                        .resizable()
+                    Text("Characters").foregroundColor(Color("white"))
+                    
+                    
+                }
+            }
+            //  Comics display by list
+            ComicsListView().tabItem {
+                VStack{
+                    Image(systemName: "book.circle").foregroundColor(.red)
+                    Text("Comics").foregroundColor(Color("white"))
+                    
+                }
+            }
+            // ComicStore display by list
+            ComicStoresListView().tabItem {
+                VStack{
+                    Image(systemName:"location.circle")
+                    Text("Store").foregroundColor(Color("white"))
+
+                    
+                    
+                }
+            }
+        }.accentColor(Color("secondary"))
+        
+        
+        
+        
     }
 }
 
