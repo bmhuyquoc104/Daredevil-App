@@ -11,18 +11,22 @@ struct FeaturedCharacterView: View {
     @EnvironmentObject var characterModel: CharacterModel
     
     var body: some View {
-        ZStack{
-            GeometryReader{
-                geometry in
-                Rectangle().ignoresSafeArea().frame(width: geometry.size.width, height: geometry.size.height)
-                    .foregroundColor(Color("Imperial Purple"))
-            }
-            List(characterModel.characters){
-                character in
+        VStack{
+         
+            TabView(){
+                ForEach(0..<characterModel.characters.count){
+                    index in
+                    VStack{
+                        Image(characterModel.characters[index].image).resizable().cornerRadius(10).shadow(radius: 5).frame(width: 200, height: 250).aspectRatio(contentMode: .fit)
+                        Text(characterModel.characters[index].name).foregroundColor(.white)
+                    }
+                    
+                }
               
-                Image(character.image)
             }
-        }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+        }.background(Color("primary"))
     }
 }
 

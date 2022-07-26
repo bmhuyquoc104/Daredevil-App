@@ -4,5 +4,29 @@
         "name": "Daredevil",
         "description": "Abandoned by his mother, Matt Murdock was raised by his father, boxer \"Battling Jack\" Murdock, in Hell's Kitchen. Realizing that rules were needed to prevent people from behaving badly, young Matt decided to study law; however, when he saved a man from an oncoming truck, it spilled a radioactive cargo that rendered Matt blind while enhancing his remaining senses. Under the harsh tutelage of blind martial arts master Stick, Matt mastered his heightened senses and became a formidable fighter.",
         "image": "daredevil"
+    },
+    {
+        "id": 2,
+        "name": "Kingpin",
+        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
+        "image": "kingpin"
+    },
+    {
+        "id": 3,
+        "name": "Kingpin",
+        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
+        "image": "kingpin"
+    },
+    {
+        "id": 4,
+        "name": "Kingpin",
+        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
+        "image": "kingpin"
+    },
+    {
+        "id": 5,
+        "name": "Kingpin",
+        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
+        "image": "kingpin"
     }
 ]
