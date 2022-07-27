@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct CharacterCardView: View {
+    
     // Render dynamically by passing character
     var character:Character
+    @State var isShowing = false
     var body: some View {
         VStack {
             
-            Text(character.realName).bold().font(.system(size: 22)).padding(.top).foregroundColor(Color(character.cardBackground))
+            Text(character.realName).bold().font(.system(size: 22)).foregroundColor(Color(character.cardBackground))
             Spacer()
             ZStack(){
                 Rectangle().cornerRadius(15).shadow(radius: 5).foregroundColor(Color(character.cardBackground))
@@ -25,14 +27,18 @@ struct CharacterCardView: View {
                         HStack{
                             Spacer()
                             Button {
-                                
+                                self.isShowing.toggle()
                             } label: {
                                 VStack(alignment:.center){
                                     Image(systemName: "arrow.up").foregroundColor(Color("white"))
                                     Text("Know More").foregroundColor(Color("white")).bold().font(.system(size: 12))
                                   
                                 }
+                            }.fullScreenCover(isPresented: $isShowing) {
+                                CharacterDetailView(character: character)
+                                
                             }
+                            
                             Spacer()
 
                         }.offset(x:0,y:20)

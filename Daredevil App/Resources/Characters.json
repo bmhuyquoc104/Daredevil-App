@@ -5,7 +5,71 @@
         "description": "Abandoned by his mother, Matt Murdock was raised by his father, boxer \"Battling Jack\" Murdock, in Hell's Kitchen. Realizing that rules were needed to prevent people from behaving badly, young Matt decided to study law; however, when he saved a man from an oncoming truck, it spilled a radioactive cargo that rendered Matt blind while enhancing his remaining senses. Under the harsh tutelage of blind martial arts master Stick, Matt mastered his heightened senses and became a formidable fighter.",
         "image": "daredevil2",
         "realName":"Matt Murdock",
-        "cardBackground":"Imperial Purple"
+        "cardBackground":"Imperial Purple",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man:No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
+                "id":2
+            },
+            {
+                "title":"The Defender",
+                "image":"dd-defender",
+                "id":3
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
+        
     },
     {
         "id": 2,
@@ -14,6 +78,64 @@
         "image": "kingpin",
         "realName":"Wilson Fisk",
         "cardBackground":"primary",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -23,6 +145,64 @@
         "image": "jessica",
         "realName":"Jessica Jones",
         "cardBackground":"jessicabg",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -32,6 +212,64 @@
         "image": "elektra",
         "realName":"Elektra Natchios",
         "cardBackground":"Pink Raspberry",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -41,6 +279,64 @@
         "image": "punisher",
         "realName":"Frank Castle",
         "cardBackground":"primary",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -50,6 +346,64 @@
         "image": "bullseye",
         "realName":"Benjamin Dex Poindexter ",
         "cardBackground":"bullseyebg",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -59,6 +413,64 @@
         "image": "spiderman",
         "realName":"Peter Parker",
         "cardBackground":"spidermanbg",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -68,6 +480,64 @@
         "image": "thehand",
         "realName":"The Hand",
         "cardBackground":"thehandbg",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -77,6 +547,64 @@
         "image": "karen",
         "realName":"Karen Page",
         "cardBackground":"karenbg",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
 
     },
     {
@@ -86,5 +614,63 @@
         "description": "She worked as a prostitute in a brothel, this is where she first met Matt Murdock, before he became Daredevil.In a moment of panic, he lashed out against the women, knocking Mary out the window. At that moment, Mary vowed that she would never allow a man to hurt her again. She became Typhoid Mary.",
         "realName":"Mary Alice Walker",
         "cardBackground":"typhoidmarybg",
+        "attributes":{
+            "intelligence":3,
+            "strength":3,
+            "speed":2,
+            "durability":2,
+            "energyProjection":4,
+            "fightingSkills":5,
+        },
+        "personalInfo":{
+            "height":"1.8m",
+            "weight":"83.91kg",
+            "occupation":"Lawyer",
+            "gender":"Male",
+            "citizenship":"American"
+        },
+        "creatorsAppearance":{
+            "creators":"Stan Lee,Bill Everett",
+            "debut":"1964",
+        },
+        "movies":[
+            {
+                "title":"Spider-Man: No Way Home",
+                "image":"dd-nwh",
+                "id":0
+            },
+            {
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
+                "id":1
+            },
+            {
+                "title":"Defender",
+                "image":"dd-defender",
+                "id":2
+            }
+        ],
+        "comics":[
+            {
+                "title":"Daredevil: Woman Without Fear",
+                "image":"dd-wwf",
+                "id":0
+            },
+            {
+                "title":"Daredevil#1",
+                "image":"dd-d#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign: Omega #1",
+                "image":"dd-dr#1",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
+                "id":3
+            }
+        ]
     },
 ]
