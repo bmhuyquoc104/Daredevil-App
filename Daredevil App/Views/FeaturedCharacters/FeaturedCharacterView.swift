@@ -14,19 +14,16 @@ struct FeaturedCharacterView: View {
         VStack{
          
             TabView(){
-                ForEach(0..<characterModel.characters.count){
+                ForEach(0..<characterModel.characters.count, id:\.self){
                     index in
-                    VStack{
-                        Image(characterModel.characters[index].image).resizable().cornerRadius(10).shadow(radius: 5).frame(width: 200, height: 250).aspectRatio(contentMode: .fit)
-                        Text(characterModel.characters[index].name).foregroundColor(.white)
-                    }
+                    CharacterCardView(character: characterModel.characters[index])
                     
                 }
               
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
             .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
-        }.background(Color("primary"))
+        }
     }
 }
 

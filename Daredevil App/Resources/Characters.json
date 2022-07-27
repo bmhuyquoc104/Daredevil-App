@@ -3,30 +3,88 @@
         "id": 1,
         "name": "Daredevil",
         "description": "Abandoned by his mother, Matt Murdock was raised by his father, boxer \"Battling Jack\" Murdock, in Hell's Kitchen. Realizing that rules were needed to prevent people from behaving badly, young Matt decided to study law; however, when he saved a man from an oncoming truck, it spilled a radioactive cargo that rendered Matt blind while enhancing his remaining senses. Under the harsh tutelage of blind martial arts master Stick, Matt mastered his heightened senses and became a formidable fighter.",
-        "image": "daredevil"
+        "image": "daredevil2",
+        "realName":"Matt Murdock",
+        "cardBackground":"Imperial Purple"
     },
     {
         "id": 2,
         "name": "Kingpin",
-        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
-        "image": "kingpin"
+        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk.Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant.",
+        "image": "kingpin",
+        "realName":"Wilson Fisk",
+        "cardBackground":"primary",
+
     },
     {
         "id": 3,
-        "name": "Kingpin",
-        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
-        "image": "kingpin"
+        "name": "Jessica Jones",
+        "description": "Jessica Jones is a superpowered woman who had a brief superhero career until an incident in which the villainous Kilgrave caused her to kill someone. After that incident, she became a private investigator. When Kilgrave resurfaces, Jessica must rise up to stop him.",
+        "image": "jessica",
+        "realName":"Jessica Jones",
+        "cardBackground":"jessicabg",
+
     },
     {
         "id": 4,
-        "name": "Kingpin",
-        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
-        "image": "kingpin"
+        "name": "Elektra",
+        "description": "Daughter of a slain ambassador with a troubled childhood, Elektra trained to become a supreme martial artist and assassin.An assassin and bounty hunter trained by the ancient ninja cult known as the Hand, Elektra Natchios has a history of getting her jobs done—even when her allies get in the way.",
+        "image": "elektra",
+        "realName":"Elektra Natchios",
+        "cardBackground":"Pink Raspberry",
+
     },
     {
         "id": 5,
-        "name": "Kingpin",
-        "description": "One of the most feared, dangerous and powerful crime lords in the Marvel Universe, usually depicted as New York City's crime overlord, he was introduced as an adversary of Spider-Man, but later went on to be the archenemy of Daredevil,[5] as well as a recurring foe of the Punisher and his adoptive daughter Echo. The Kingpin is the husband of Vanessa Fisk and the father of Richard Fisk. His traditional attire consists of his signature white suit jacket and cane, though his appearance has been changed over the years. Across all iterations, the Kingpin is depicted with an extraordinarily heavyset appearance and a bald head. The character is not simply obese but also heavily-muscled (like a sumo wrestler) and a formidable hand-to-hand combatant. While this makes him a dangerous foe to face in person, even to Spider-Man, his size has been regularly mocked.",
-        "image": "kingpin"
-    }
+        "name": "Punisher",
+        "description": "Traumatized by horrific events both at home and abroad, Frank Castle becomes The Punisher, using the lethal skills he honed as a Marine to exact violent vengeance on those he deems responsible for the death of his family.When Frank Castle's beloved family is murdered, the ex-Marine becomes a vigilante with a uniquely brutal brand of justice.",
+        "image": "punisher",
+        "realName":"Frank Castle",
+        "cardBackground":"primary",
+
+    },
+    {
+        "id": 6,
+        "name": "Bullseye",
+        "description": "Benjamin Poindexter is a veteran of the United States Army and a former FBI agent who had a remarkable talent for accuracy. A tortured soul born with a mental illness, who was surfaced from a broken home and a lonely childhood, Poindexter had needed structure and rules to suppress his psychopathic tendencies, and maintaining his sanity, obsessing over Julie Barnes due to her caring nature. ",
+        "image": "bullseye",
+        "realName":"Benjamin Dex Poindexter ",
+        "cardBackground":"bullseyebg",
+
+    },
+    {
+        "id": 7,
+        "name": "Spiderman",
+        "description": "Peter Parker was an orphaned teenage boy who lived in Queens, New York with his Aunt May and Uncle Ben. He was a shy boy, but highly intelligent and excelled in science.The words of his late uncle, with great power there must also come great responsibility, drive Peter to fight crime instead of chasing fame. Spider-Man was truly born.",
+        "image": "spiderman",
+        "realName":"Peter Parker",
+        "cardBackground":"spidermanbg",
+
+    },
+    {
+        "id": 8,
+        "name": "The Hand",
+        "description": "The Hand is an order of evil mystical ninjas who are heavily involved in organized crime and mercenary activities such as assassination plots. The Hand covets power above all other objectives. They are primarily based in Japan, but operate internationally.",
+        "image": "thehand",
+        "realName":"The Hand",
+        "cardBackground":"thehandbg",
+
+    },
+    {
+        "id": 9,
+        "name": "Karen Page",
+        "description": "Karen Page is the former office manager for Nelson and Murdock and, along with Foggy Nelson, Matt Murdock and Ben Urich, was instrumental in the effort to bring Wilson Fisk to justice. While working for Nelson and Murdock, Page came into contact with Frank Castle, who she helped defend in court.",
+        "image": "karen",
+        "realName":"Karen Page",
+        "cardBackground":"karenbg",
+
+    },
+    {
+        "id": 10,
+        "name": "Typhoid Mary",
+        "image":"typhoidmary",
+        "description": "She worked as a prostitute in a brothel, this is where she first met Matt Murdock, before he became Daredevil.In a moment of panic, he lashed out against the women, knocking Mary out the window. At that moment, Mary vowed that she would never allow a man to hurt her again. She became Typhoid Mary.",
+        "realName":"Mary Alice Walker",
+        "cardBackground":"typhoidmarybg",
+    },
 ]
