@@ -22,7 +22,7 @@
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
+            "creators":"Stan Lee, Bill Everett",
             "debut":"1964",
         },
         "movies":[
@@ -37,14 +37,20 @@
                 "id":1
             },
             {
-                "title":"Daredevil 2",
-                "image":"dd-daredevil2",
+                "title":"The Defender",
+                "image":"dd-defender",
                 "id":2
             },
             {
-                "title":"The Defender",
-                "image":"dd-defender",
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
                 "id":3
+            },
+           
+            {
+                "title":"Daredevil",
+                "image":"mv-dd1",
+                "id":4
             }
         ],
         "comics":[
@@ -83,56 +89,66 @@
             "strength":3,
             "speed":2,
             "durability":2,
-            "energyProjection":4,
+            "energyProjection":1,
             "fightingSkills":5,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
+            "height":"2.01m",
+            "weight":"204.12kg",
+            "occupation":"Criminal organizer and mastermind",
             "gender":"Male",
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Stan Lee, John Romita",
+            "debut":"1967",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"Hawkeye",
+                "image":"kp-hawkeye",
                 "id":0
+            },
+            {
+                "title":"Spider-Man: Into the Spider-Verse",
+                "image":"kp-sm",
+                "id":1
             },
             {
                 "title":"Daredevil 3",
                 "image":"dd-daredevil3",
-                "id":1
+                "id":2
             },
             {
-                "title":"Defender",
-                "image":"dd-defender",
-                "id":2
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
+                "id":3
+            },
+            {
+                "title":"Daredevil",
+                "image":"mv-dd1",
+                "id":4
             }
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"Devil's Reign #6",
+                "image":"dd-dr#6",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"Devil's Reign: X-Men #3",
+                "image":"cm-kp2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Devil's Reign #5",
+                "image":"cm-kp3",
                 "id":2
             },
             {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
+                "title":"Devil's Reign: X-Men #3",
+                "image":"cm-kp4",
                 "id":3
             }
         ]
@@ -146,62 +162,62 @@
         "realName":"Jessica Jones",
         "cardBackground":"jessicabg",
         "attributes":{
-            "intelligence":3,
-            "strength":3,
-            "speed":2,
-            "durability":2,
-            "energyProjection":4,
-            "fightingSkills":5,
+            "intelligence":2,
+            "strength":4,
+            "speed":3,
+            "durability":4,
+            "energyProjection":1,
+            "fightingSkills":3,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
-            "gender":"Male",
+            "height":"1.7m",
+            "weight":"56.25kg",
+            "occupation":"Private Investigator",
+            "gender":"Female",
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Brian Michael Bendis, Michael Gaydos, Stan Lee, Steve Ditko",
+            "debut":"1963",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"Jessica Jones 3",
+                "image":"mv-js3",
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"Jessica Jones 2",
+                "image":"mv-js2",
                 "id":1
             },
             {
-                "title":"Defender",
+                "title":"The Defender",
                 "image":"dd-defender",
                 "id":2
-            }
+            },
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"The Variants #1",
+                "image":"cm-js1",
                 "id":0
-            },
-            {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
-                "id":1
-            },
-            {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
-                "id":2
             },
             {
                 "title":"Devil's Reign #6",
                 "image":"dd-dr#6",
-                "id":3
-            }
+                "id":1
+            },
+            {
+                "title":"Women of Marvel #1",
+                "image":"cm-js3",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign #3",
+                "image":"cm-js4",
+                "id":1
+            },
         ]
 
     },
@@ -221,31 +237,31 @@
             "fightingSkills":5,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
-            "gender":"Male",
-            "citizenship":"American"
+            "height":"1.75m",
+            "weight":"58.97kg",
+            "occupation":"Assassin",
+            "gender":"Female",
+            "citizenship":"Greek"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Frank Miler",
+            "debut":"1980",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"The Defender",
+                "image":"dd-defender",
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
                 "id":1
             },
             {
-                "title":"Defender",
-                "image":"dd-defender",
-                "id":2
+                "title":"Elektra",
+                "image":"mv-elektra2005",
+                "id":3
             }
         ],
         "comics":[
@@ -254,20 +270,26 @@
                 "image":"dd-wwf",
                 "id":0
             },
-            {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
-                "id":1
-            },
+          
             {
                 "title":"Devil's Reign: Omega #1",
                 "image":"dd-dr#1",
+                "id":1
+            },
+            {
+                "title":"Elektra: Black, White & Blood #4",
+                "image":"cm-el3",
                 "id":2
+            },
+            {
+                "title":"Elektra #100",
+                "image":"cm-el4",
+                "id":3
             },
             {
                 "title":"Devil's Reign #6",
                 "image":"dd-dr#6",
-                "id":3
+                "id":4
             }
         ]
 
@@ -284,56 +306,56 @@
             "strength":3,
             "speed":2,
             "durability":2,
-            "energyProjection":4,
-            "fightingSkills":5,
+            "energyProjection":1,
+            "fightingSkills":6,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
+            "height":"1.91m",
+            "weight":"102.06kg",
+            "occupation":"Vigilante",
             "gender":"Male",
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Gerry Conway, Ross Andru, John Romita Sr",
+            "debut":"1973",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"The Punisher 2",
+                "image":"mv-pn2",
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"The Punisher 1",
+                "image":"mv-pn1",
                 "id":1
             },
             {
-                "title":"Defender",
-                "image":"dd-defender",
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
                 "id":2
-            }
+            },
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"Punisher #4",
+                "image":"cm-pn1",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"Punisher War Journal: Blitz #1",
+                "image":"cm-pn2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Punisher #3",
+                "image":"cm-pn3",
                 "id":2
             },
             {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
+                "title":"Punisher #2",
+                "image":"cm-pn4",
                 "id":3
             }
         ]
@@ -347,61 +369,51 @@
         "realName":"Benjamin Dex Poindexter ",
         "cardBackground":"bullseyebg",
         "attributes":{
-            "intelligence":3,
-            "strength":3,
+            "intelligence":2,
+            "strength":2,
             "speed":2,
-            "durability":2,
-            "energyProjection":4,
+            "durability":3,
+            "energyProjection":1,
             "fightingSkills":5,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
+            "height":"1.83m",
+            "weight":"79.38kg",
+            "occupation":"Goverment Agent",
             "gender":"Male",
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Marv Wolfman, William Robert Brown",
+            "debut":"1975",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"Daredevil 3",
+                "image":"dd-daredevil3",
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"Daredevil 2003",
+                "image":"mv-be2003",
                 "id":1
-            },
-            {
-                "title":"Defender",
-                "image":"dd-defender",
-                "id":2
             }
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"Hawkeye: Freefall #6",
+                "image":"cm-be1",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"She-Hulk Annual#1",
+                "image":"cm-be2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Old Man Hawkeye #2",
+                "image":"cm-be3",
                 "id":2
-            },
-            {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
-                "id":3
             }
         ]
 
@@ -414,23 +426,23 @@
         "realName":"Peter Parker",
         "cardBackground":"spidermanbg",
         "attributes":{
-            "intelligence":3,
-            "strength":3,
-            "speed":2,
-            "durability":2,
-            "energyProjection":4,
-            "fightingSkills":5,
+            "intelligence":4,
+            "strength":4,
+            "speed":3,
+            "durability":3,
+            "energyProjection":1,
+            "fightingSkills":4,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
+            "height":"1.78m",
+            "weight":"75.75kg",
+            "occupation":"Adventurer",
             "gender":"Male",
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Stan Lee, Steve Ditko",
+            "debut":"1962",
         },
         "movies":[
             {
@@ -439,35 +451,35 @@
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"Spider-Man: Far From Home",
+                "image":"mv-spffh",
                 "id":1
             },
             {
-                "title":"Defender",
-                "image":"dd-defender",
+                "title":"Avengers: End Game",
+                "image":"mv-speg",
                 "id":2
             }
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"Heroes Reborn: Peter Parker, The Amazing Shutterbug #1",
+                "image":"cm-sp1",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"What If? The Punisher #1",
+                "image":"cm-sp2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Amazing Spider-Man #688",
+                "image":"cm-sp3",
                 "id":2
             },
             {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
+                "title":"Amazing Spider-Man #682",
+                "image":"cm-sp4",
                 "id":3
             }
         ]
@@ -496,45 +508,41 @@
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Frank Miler",
+            "debut":"1981",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"The Defender",
+                "image":"dd-defender",
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
                 "id":1
-            },
-            {
-                "title":"Defender",
-                "image":"dd-defender",
-                "id":2
             }
+            
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"X-Men Legends #7",
+                "image":"cm-th1",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"Wolverine: Old Man Logan Vol. 7 - Scarlet Samurai",
+                "image":"cm-th2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Old Man Logan #35",
+                "image":"cm-th3",
                 "id":2
             },
             {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
+                "title":"Daredevil: Shadowland Omnibus",
+                "image":"cm-th4",
                 "id":3
             }
         ]
@@ -548,18 +556,18 @@
         "realName":"Karen Page",
         "cardBackground":"karenbg",
         "attributes":{
-            "intelligence":3,
-            "strength":3,
+            "intelligence":2,
+            "strength":2,
             "speed":2,
             "durability":2,
-            "energyProjection":4,
-            "fightingSkills":5,
+            "energyProjection":1,
+            "fightingSkills":3,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
-            "gender":"Male",
+            "height":"1.7m",
+            "weight":"56.7kg",
+            "occupation":"Radio talk show host",
+            "gender":"Female",
             "citizenship":"American"
         },
         "creatorsAppearance":{
@@ -567,41 +575,47 @@
             "debut":"1964",
         },
         "movies":[
-            {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
-                "id":0
-            },
+
             {
                 "title":"Daredevil 3",
                 "image":"dd-daredevil3",
                 "id":1
             },
             {
-                "title":"Defender",
+                "title":"The Defender",
                 "image":"dd-defender",
                 "id":2
+            },
+            {
+                "title":"Daredevil 2",
+                "image":"dd-daredevil2",
+                "id":1
+            },
+            {
+                "title":"Daredevil 1",
+                "image":"mv-dd1",
+                "id":1
             }
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"Daredevil: Season One #1",
+                "image":"cm-kap1",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"DAREDEVIL/ECHO: PARTS OF A HOLE PREMIERE HC",
+                "image":"cm-kap2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Fantastic Four Omnibus Vol. 2",
+                "image":"cm-kap3",
                 "id":2
             },
             {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
+                "title":"Marvel Masterworks: Daredevil Vol. 3",
+                "image":"cm-kap4",
                 "id":3
             }
         ]
@@ -616,59 +630,55 @@
         "cardBackground":"typhoidmarybg",
         "attributes":{
             "intelligence":3,
-            "strength":3,
+            "strength":2,
             "speed":2,
             "durability":2,
-            "energyProjection":4,
-            "fightingSkills":5,
+            "energyProjection":6,
+            "fightingSkills":4,
         },
         "personalInfo":{
-            "height":"1.8m",
-            "weight":"83.91kg",
-            "occupation":"Lawyer",
-            "gender":"Male",
+            "height":"1.78m",
+            "weight":"63.57kg",
+            "occupation":"Assassin",
+            "gender":"Female",
             "citizenship":"American"
         },
         "creatorsAppearance":{
-            "creators":"Stan Lee,Bill Everett",
-            "debut":"1964",
+            "creators":"Ann Nocenti, John Romita, Jr",
+            "debut":"1988",
         },
         "movies":[
             {
-                "title":"Spider-Man: No Way Home",
-                "image":"dd-nwh",
+                "title":"Elektra",
+                "image":"mv-elektra2005",
                 "id":0
             },
             {
-                "title":"Daredevil 3",
-                "image":"dd-daredevil3",
+                "title":"Daredevil 2003",
+                "image":"mv-be2003",
                 "id":1
-            },
-            {
-                "title":"Defender",
-                "image":"dd-defender",
-                "id":2
             }
+          
         ],
         "comics":[
             {
-                "title":"Daredevil: Woman Without Fear",
-                "image":"dd-wwf",
+                "title":"Daredevil #36",
+                "image":"cm-tp1",
                 "id":0
             },
             {
-                "title":"Daredevil#1",
-                "image":"dd-d#1",
+                "title":"Daredevil #34",
+                "image":"cm-tp2",
                 "id":1
             },
             {
-                "title":"Devil's Reign: Omega #1",
-                "image":"dd-dr#1",
+                "title":"Daredevil #32",
+                "image":"cm-tp3",
                 "id":2
             },
             {
-                "title":"Devil's Reign #6",
-                "image":"dd-dr#6",
+                "title":"Daredevil #28",
+                "image":"cm-tp4",
                 "id":3
             }
         ]
