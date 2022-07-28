@@ -1,0 +1,453 @@
+[
+    {
+        "id":1,
+        "title": "Devil's Reign (2021) #6",
+        "description":"Wilson Fisk’s hubris as mayor of New York has cast the city in the waiting arms of a cadre of dangerous and deadly super villains! Worse still, Fisk’s vendetta against the heroes who have stood against him for so long has left the city defenseless. You may think you’ve heard a tale like this before, but there will be no last minute bargains struck between Fisk and the heroes, no truce to stop the fighting and no mutual parting of the ways. Just blood, sweat and tears! Trust us, True Believer, you have NO IDEA what’s coming — or the effect it will have on the Marvel Universe!",
+        "pageCount":40,
+        "onsaleDate":"2022-04-06",
+        "prices":"$5.99",
+        "image":"cm-dr#1",
+        "rating":"Rated +",
+        "creators":[
+            {
+                "name": "Marco Checchetto",
+                "role": "inker (cover)",
+                "id":0
+                
+            },
+            {
+                "name": "Vc Clayton Cowles",
+                "role": "letterer",
+                "id":1
+            },
+            {
+                "name": "Edward Devin Lewis",
+                "role": "editor",
+                "id":2
+            }
+            ,
+            {
+                "name": "Marcio Menyz",
+                "role": "colorist (cover)",
+                "id":3
+            },
+            {
+                "name": "Chip Zdarsky",
+                "role": "writer",
+                "id":4
+            }
+        ],
+        "characters": [
+            {
+                "name": "Daredevil",
+                "id":0
+            },
+            {
+                "name": "Elektra",
+                "id":1
+            },
+            {
+                "name": "Fantastic Four",
+                "id":2
+            },
+            {
+                "name": "Jessica Jones",
+                "id":3
+            },
+            {
+                "name": "Kingpin",
+                "id":4
+            },
+            {
+                "name": "Luke Cage",
+                "id":5
+            },
+            {
+                "name": "Purple Man",
+                "id":6
+            },
+            {
+                "name": "Thunderbolts",
+                "id":7
+            }
+        ],
+    },
+    {
+        "id":2,
+        "title": "Devil's Reign (2021) #5",
+        "description":"As smart and ruthless as Wilson Fisk may be, he’s chosen to enlist the aid of some of the most reprehensible, dangerous and bloodthirsty criminals the Marvel Universe has to offer! He’s been able to keep them on a short leash out of fear for weeks. IN THIS ISSUE — that fear runs out! Fisk’s lackeys aren’t scared of ANYTHING anymore, even him — and ALL OF NEW YORK is left to pay the price!",
+        "pageCount":40,
+        "onsaleDate":"2022-03-09",
+        "prices":"$4.99",
+        "image":"cm-dr#2",
+        "rating":"Rated T+",
+        "creators":[
+            {
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)",
+                "id":0
+            }
+            ,
+            {
+                "name": "Vc Clayton Cowles",
+                "role": "letterer",
+                "id":1
+            },
+
+            {
+                "name": "Edward Devin Lewis",
+                "role": "editor",
+                "id":2
+            },
+            {
+                "name": "Marcio Menyz",
+                "role": "colorist",
+                "id":3
+            },
+            {
+                "name": "Chip Zdarsky",
+                "role": "writer",
+                "id":5
+            },
+            {
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)",
+                "id":6
+            },
+
+        ],
+        "characters": [
+            {
+                "name": "Captain America",
+                "id":0
+            },
+            {
+                "name": "Daredevil",
+                "id":1
+            },
+            {
+                "name": "Elektra",
+                "id":2
+            },
+            {
+                "name": "Kingpin",
+                "id":3
+            }
+        ],
+    },
+    {
+        "id":3,
+        "title": "Devil's Reign (2021) #4",
+        "description":"NEW YORK UNDER SEIGE! Wilson Fisk, duly elected Mayor of New York, has broken. Whatever shred of decency that may have been left of him is gone entirely and now, with an army of super villains at his command, THE KINGPIN has set his gaze upon everyone the heroes of the Marvel Universe hold dear - but even the Kingpin is unaware of the magnitude of danger he has put the city, its citizens and even himself with his war against the city's super heroes!",
+        "pageCount":32,
+        "onsaleDate":"2022-02-09",
+        "prices":"$4.99",
+        "image":"cm-dr#3",
+        "rating":"Rated T+",
+        "creators":[
+            {
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)",
+                "id":0
+                
+            },
+            {
+                "name": "Vc Clayton Cowles",
+                "role": "letterer",
+                "id":1
+            },
+            {
+                "name": "Edward Devin Lewis",
+                "role": "editor",
+                "id":2
+            }
+            ,
+            {
+                "name": "Marcio Menyz",
+                "role": "colorist",
+                "id":3
+            },
+            {
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)",
+                "id":4
+            },
+            {
+                "name": "Chip Zdarsky",
+                "role": "writer",
+                "id":5
+            }
+        ],
+        "characters": [
+            {
+                "name": "Daredevil",
+                "id":0
+            },
+            {
+                "name": "Elektra",
+                "id":1
+            },
+            {
+                "name": "Doctor Octopus",
+                "id":2
+            },
+     
+            {
+                "name": "Kingpin",
+                "id":3
+            },
+            
+            {
+                "name": "Thunderbolts",
+                "id":4
+            }
+        ],
+    },
+    {
+        "id":4,
+        "title": "Devil's Reign (2021) #3",
+        "description":"New York City stands at the brink of disaster as MAYOR WILSON FISK has at last reached a breaking point, with an army of super villains at his back, and a deputized crew of super villainous THUNDERBOLTS on the streets and in every police station. Worse still, he's put the Marvel Universe's most powerful tools into (all six) hands of one of its most diabolical minds, unaware of the disaster that could befall the entire city as a result! As a gauntlet of super villains stand between Captain America, Iron Man, Spider-Man and Daredevil and liberating the heroes who have been captured by Fisk's law enforcement, they're ALL about to learn that the danger is closer than they ever thought possible. Civilians, heroes, even children - NO ONE is safe from the Kingpin's wrath",
+        "pageCount":32,
+        "onsaleDate":"2022-01-26",
+        "prices":"$4.99",
+        "image":"cm-dr#4",
+        "rating":"Rated T+",
+        "creators":[
+            {
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)",
+                "id":0
+                
+            },
+            {
+                "name": "Vc Clayton Cowles",
+                "role": "letterer",
+                "id":1
+            },
+            {
+                "name": "Edward Devin Lewis",
+                "role": "editor",
+                "id":2
+            }
+            ,
+            {
+                "name": "Marcio Menyz",
+                "role": "colorist",
+                "id":3
+            },
+            {
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)",
+                "id":4
+            },
+            {
+                "name": "Chip Zdarsky",
+                "role": "writer",
+                "id":5
+            }
+            
+        ],
+        "characters": [
+            {
+                "name": "Daredevil",
+                "id":0
+            },
+            {
+                "name": "Elektra",
+                "id":1
+            },
+            {
+                "name": "Fantastic Four",
+                "id":2
+            },
+            {
+                "name": "Jessica Jones",
+                "id":3
+            },
+            {
+                "name": "Kingpin",
+                "id":4
+            },
+            {
+                "name": "Luke Cage",
+                "id":5
+            },
+            {
+                "name": "Captain America",
+                "id":6
+            },
+            {
+                "name": "Thunderbolts",
+                "id":7
+            },
+            {
+                "name": "Spider-Man (Ben Reilly",
+                "id":8
+            }
+        ],
+    },
+    {
+        "id":5,
+        "title": "Devil's Reign (2021) #2",
+        "description":"Wilson Fisk has set the Marvel Universe on a dangerous and violent path, hoping to remake it in his own image. Systematically leveraging the power of his office against the heroes of the Marvel Universe, Fisk takes his most dangerous and craven step yet… The THUNDERBOLTS are reporting for duty! ALSO IN THIS ISSUE: Hizzoner isn’t the only one with ambitions—the forces he’s marshaled do as well. You know what they say about honor among thieves…",
+        "pageCount":32,
+        "onsaleDate":"2021-12-29",
+        "prices":"$4.99",
+        "image":"cm-dr#5",
+        "rating":"Rated +",
+        "creators":[
+            {
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)",
+                "id":0
+                
+            },
+            {
+                "name": "Vc Clayton Cowles",
+                "role": "letterer",
+                "id":1
+            },
+            {
+                "name": "Edward Devin Lewis",
+                "role": "editor",
+                "id":2
+            }
+            ,
+            {
+                "name": "Marcio Menyz",
+                "role": "colorist",
+                "id":3
+            },
+            {
+                "name": "Chip Zdarsky",
+                "role": "writer",
+                "id":4
+            },
+            {
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)",
+                "id":5
+            }
+        ],
+        "characters": [
+            {
+                "name": "Daredevil",
+                "id":0
+            },
+            {
+                "name": "Elektra",
+                "id":1
+            },
+            {
+                "name": "Fantastic Four",
+                "id":2
+            },
+            {
+                "name": "Jessica Jones",
+                "id":3
+            },
+            {
+                "name": "Kingpin",
+                "id":4
+            },
+            {
+                "name": "Luke Cage",
+                "id":5
+            },
+            {
+                "name": "Thunderbolts",
+                "id":6
+            },
+            {
+                "name": "Captain America",
+                "id":7
+            },
+            {
+                "name": "Spider-Man (Ben Reilly)",
+                "id":8
+            },
+            {
+                "name": "Taskmaster",
+                "id":9
+            }
+        ],
+    },
+    {
+        "id":6,
+        "title": "Devil's Reign (2021) #1",
+        "description":"The story that’s been building for years is here! Wilson Fisk went from Kingpin to mayor of the biggest city in America and is going to bring his full criminal and political power to bear on the super heroes who call NYC home. The man who once destroyed Daredevil has set his sights on The Fantastic Four, Iron Man, Captain America, Spider-Man, Jessica Jones, Luke Cage and more. And since it’s Fisk, once he takes them all down, you know he’s going to sign it. CROSSBONES! TASKMASTER! TYPHOID MARY! SHOCKER! WHIPLASH! RHINO! KRAVEN! Fisk has an ARMY of super villains at his command – and this is just his opening salvo. For years, Fisk has waited for his time to strike, and YOU WON’T BELIEVE the aces he’s got up his sleeves!",
+        "pageCount":40,
+        "onsaleDate":"2021-12-08",
+        "prices":"$5.99",
+        "image":"cm-dr#6",
+        "rating":"Rated +",
+        "creators":[
+            {
+                "name": "Marco Checchetto",
+                "role": "penciler (cover)",
+                "id":0
+                
+            },
+            {
+                "name": "Vc Clayton Cowles",
+                "role": "letterer",
+                "id":1
+            },
+            {
+                "name": "Edward Devin Lewis",
+                "role": "editor",
+                "id":2
+            }
+            ,
+            {
+                "name": "Marcio Menyz",
+                "role": "colorist",
+                "id":3
+            },
+            {
+                "name": "Chip Zdarsky",
+                "role": "writer",
+                "id":4
+            },
+            {
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)",
+                "id":5
+            }
+        ],
+        "characters": [
+            {
+                "name": "Daredevil",
+                "id":0
+            },
+            {
+                "name": "Elektra",
+                "id":1
+            },
+            {
+                "name": "Fantastic Four",
+                "id":2
+            },
+            {
+                "name": "Jessica Jones",
+                "id":3
+            },
+            {
+                "name": "Kingpin",
+                "id":4
+            },
+            {
+                "name": "Luke Cage",
+                "id":5
+            },
+            {
+                "name": "Captain America",
+                "id":6
+            },
+            {
+                "name": "Thunderbolts",
+                "id":7
+            }
+        ],
+    }
+]

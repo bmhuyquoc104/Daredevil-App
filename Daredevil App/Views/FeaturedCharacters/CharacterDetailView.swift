@@ -203,7 +203,8 @@ struct CharacterDetailView: View {
                                             .frame(width:150)
                                             .multilineTextAlignment(.center)
                                         Spacer()
-                                    }.frame(width: 200, height: 350)                                    }
+                                    }.frame(width: 200, height: 350)
+                                }
                             }
                         }
                     }

@@ -14,6 +14,7 @@ struct Daredevil_AppApp: App {
             HomeView()
                 // Assign environment object to the top roof and will be use later by other views at the deeper level
                 .environmentObject(CharacterModel())
+                .environmentObject(ComicsModel())
         }
     }
 }

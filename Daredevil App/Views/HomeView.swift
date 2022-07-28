@@ -9,13 +9,9 @@ import SwiftUI
 
 struct HomeView: View {
     init() {
-      
-
-        UITabBar.appearance().backgroundColor = UIColor(Color("primary"))
-           UITabBar.appearance().unselectedItemTintColor = UIColor(Color("white"))
-           UITabBar.appearance().barTintColor = UIColor(Color("secondary"))
-        
-       
+        UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance.init(idiom: .unspecified)
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color("white"))
+        UITabBar.appearance().barTintColor = UIColor(Color("secondary"))
        }
     var body: some View {
         // Create tabview for display purposes
@@ -23,7 +19,7 @@ struct HomeView: View {
             //  Main feature character view
             FeaturedCharacterView().tabItem {
                 VStack{
-                    Image(systemName: "character")
+                    Image(systemName: "photo.circle")
                         .resizable()
                     Text("Characters").foregroundColor(Color("white"))
                     
