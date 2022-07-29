@@ -35,7 +35,7 @@ struct HomeView: View {
                 }
             }
             // ComicStore display by list
-            ComicStoresListView().tabItem {
+            BookStoresListView().tabItem {
                 VStack{
                     Image(systemName:"location.circle")
                     Text("Store").foregroundColor(Color("white"))

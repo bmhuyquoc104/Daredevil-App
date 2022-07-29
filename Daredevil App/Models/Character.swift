@@ -33,7 +33,7 @@ struct Character: Decodable,Identifiable {
         let comic2 = Comic(id: 2, title: "sieu nhan2", image: "daredevil")
         let comic3 = Comic(id: 3, title: "sieu nhan3", image: "daredevil")
 
-        let comics:[Comic] = [comic1,comic1,comic1]
+        let comics:[Comic] = [comic1,comic2,comic3]
         
         let creatorsAppearance = CreatorsAppearance(creators: "Stan Lee,Bill Everett", debut: "1964")
         let character = Character(id: 1, description: "Abandoned by his mother, Matt Murdock was raised by his father, boxer \"Battling Jack\" Murdock, in Hell's Kitchen. Realizing that rules were needed to prevent people from behaving badly, young Matt decided to study law; however, when he saved a man from an oncoming truck, it spilled a radioactive cargo that rendered Matt blind while enhancing his remaining senses. Under the harsh tutelage of blind martial arts master Stick, Matt mastered his heightened senses and became a formidable fighter.", name: "Daredevil", image: "daredevil2",realName: "Matt Murdock",cardBackground: "Imperial Purple",attributes: attributes,personalInfo: personalInfo,creatorsAppearance: creatorsAppearance,movies: movies,comics: comics)
