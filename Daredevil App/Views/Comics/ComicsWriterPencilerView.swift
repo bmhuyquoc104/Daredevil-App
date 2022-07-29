@@ -17,7 +17,7 @@ struct ComicsWriterPencilerView: View {
             ForEach(0..<comicModel.currentComic!.creators.count,id:\.self){
                 index in
                 let creator = comicModel.currentComic!.creators[index]
-                    if creator.role == "writer"{
+                    if creator.role == "Writer"{
                         Text(creator.name).font(.caption).foregroundColor(Color("Pink Raspberry"))
                     }
             }

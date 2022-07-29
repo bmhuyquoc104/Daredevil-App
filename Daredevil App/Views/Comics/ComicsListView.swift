@@ -11,11 +11,9 @@ struct ComicsListView: View {
     @EnvironmentObject var model: ComicsModel
     init (){
         UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor(Color("Pink Raspberry")),.font : UIFont.systemFont(ofSize: 26)]
-        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color("white")),.font : UIFont.systemFont(ofSize: 20)]
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor(Color("Pink Raspberry")),.font : UIFont.systemFont(ofSize: 20)]
         UINavigationBar.appearance().backgroundColor = UIColor.clear
-
-        UINavigationBar.appearance().barTintColor = UIColor(Color("Pink Raspberry"))
-
+        UINavigationBar.appearance().barTintColor = UIColor(Color("white"))
     }
     let columns = [
        // The number of grid Items here represent the number of columns you will
@@ -32,19 +30,25 @@ struct ComicsListView: View {
                         LazyVGrid(columns:columns,spacing:20) {
                             ForEach(0..<model.comicDetails.count, id:\.self){
                                 index in
-                                VStack(spacing:10){
-                                    Image(model.comicDetails[index].image).resizable().aspectRatio(contentMode: .fill).cornerRadius(10).frame(width: 160, height: 220).padding(.bottom,10)
-                                    Text(model.comicDetails[index].title).foregroundColor(Color("primary"))
-                                        .frame(width:150)
-                                        .multilineTextAlignment(.center)
-                                    ComicsWriterPencilerView().onAppear {
-                                        model.getCurrentComic(id: model.comicDetails[index].id)
-                                    }
-                                }.frame(width: 200, height: 320)
+                                NavigationLink () {
+                                    ComicListDetailView(comic: model.comicDetails[index])
+                                } label: {
+                                    VStack(spacing:10){
+                                        Image(model.comicDetails[index].image).resizable().aspectRatio(contentMode: .fill).cornerRadius(10).frame(width: 160, height: 220).padding(.bottom,10)
+                                        Text(model.comicDetails[index].title).foregroundColor(Color("primary"))
+                                            .frame(width:150)
+                                            .multilineTextAlignment(.center)
+                                        ComicsWriterPencilerView().onAppear {
+                                            model.getCurrentComic(id: model.comicDetails[index].id)
+                                        }
+                                    }.frame(width: 200, height: 320)
+                                }
+
+                             
                             }
                         }
                     }.padding(.top,10)
-                }.navigationTitle("DAREDEVIL: COMICS")
+                }.navigationTitle("DAREDEVIL: COMICS").navigationBarTitleDisplayMode(.large)
                     
             }
         }.padding()

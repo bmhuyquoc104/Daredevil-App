@@ -26,12 +26,12 @@ struct ComicDetail:Identifiable,Decodable{
         let creator3 = Creator(name: "Edward Devin Lewis", role: "editor",id:3)
         let creators = [creator1,creator2,creator3]
         
-        let character1 = ComicCharacter(name: "Daredevil", id: 1)
-        let character2 = ComicCharacter(name: "Elektra", id: 2)
-        let character3 = ComicCharacter(name: "Fantastic Four", id: 3)
+        let character1 = ComicCharacter(name: "Daredevil", id: 1,image:"ch-cap")
+        let character2 = ComicCharacter(name: "Elektra", id: 2,image:"ch-cap")
+        let character3 = ComicCharacter(name: "Fantastic Four", id: 3,image:"ch-cap")
         let characters = [character1,character2,character3]
         
-        let comicDetail = ComicDetail(id: 0, title: "Devil's Reign (2021) #6", description: "Wilson Fisk’s hubris as mayor of New York has cast the city in the waiting arms of a cadre of dangerous and deadly super villains! Worse still, Fisk’s vendetta against the heroes who have stood against him for so long has left the city defenseless. You may think you’ve heard a tale like this before, but there will be no last minute bargains struck between Fisk and the heroes, no truce to stop the fighting and no mutual parting of the ways. Just blood, sweat and tears! Trust us, True Believer, you have NO IDEA what’s coming — or the effect it will have on the Marvel Universe!", pageCount: 40, onsaleDate: "2022-04-06", prices: "$5.99", image: "cm-dv#6", rating: "Rated +", creators: creators, characters: characters)
+        let comicDetail = ComicDetail(id: 0, title: "Devil's Reign (2021) #6", description: "Wilson Fisk’s hubris as mayor of New York has cast the city in the waiting arms of a cadre of dangerous and deadly super villains! Worse still, Fisk’s vendetta against the heroes who have stood against him for so long has left the city defenseless. You may think you’ve heard a tale like this before, but there will be no last minute bargains struck between Fisk and the heroes, no truce to stop the fighting and no mutual parting of the ways. Just blood, sweat and tears! Trust us, True Believer, you have NO IDEA what’s coming — or the effect it will have on the Marvel Universe!", pageCount: 40, onsaleDate: "2022-04-06", prices: "$5.99", image: "cm-dr#5", rating: "Rated +", creators: creators, characters: characters)
         return comicDetail
     }
 }
@@ -45,4 +45,5 @@ struct Creator: Decodable,Identifiable{
 struct ComicCharacter: Decodable, Identifiable{
     var name:String
     var id:Int
+    var image:String
 }

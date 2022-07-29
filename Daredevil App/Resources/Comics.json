@@ -11,63 +11,71 @@
         "creators":[
             {
                 "name": "Marco Checchetto",
-                "role": "inker (cover)",
+                "role": "Inker (cover)",
                 "id":0
                 
             },
             {
                 "name": "Vc Clayton Cowles",
-                "role": "letterer",
+                "role": "Letterer",
                 "id":1
             },
             {
                 "name": "Edward Devin Lewis",
-                "role": "editor",
+                "role": "Editor",
                 "id":2
             }
             ,
             {
                 "name": "Marcio Menyz",
-                "role": "colorist (cover)",
+                "role": "Colorist (cover)",
                 "id":3
             },
             {
                 "name": "Chip Zdarsky",
-                "role": "writer",
+                "role": "Writer",
                 "id":4
             }
         ],
         "characters": [
             {
                 "name": "Daredevil",
+                "image":"ch-dd",
                 "id":0
             },
             {
                 "name": "Elektra",
+                "image":"ch-el",
                 "id":1
             },
             {
                 "name": "Fantastic Four",
+                "image":"ch-f4",
                 "id":2
             },
             {
                 "name": "Jessica Jones",
+                "image":"ch-js",
                 "id":3
             },
             {
                 "name": "Kingpin",
+                "image":"ch-kp",
                 "id":4
             },
             {
                 "name": "Luke Cage",
+                "image":"ch-lk",
                 "id":5
             },
             {
                 "name": "Purple Man",
+                "image":"ch-pp",
                 "id":6
             },
             {
                 "name": "Thunderbolts",
+                "image":"ch-tb",
                 "id":7
             }
         ],
@@ -84,34 +92,34 @@
         "creators":[
             {
                 "name": "Marco Checchetto",
-                "role": "penciler (cover)",
+                "role": "Penciler (cover)",
                 "id":0
             }
             ,
             {
                 "name": "Vc Clayton Cowles",
-                "role": "letterer",
+                "role": "Letterer",
                 "id":1
             },
 
             {
                 "name": "Edward Devin Lewis",
-                "role": "editor",
+                "role": "Editor",
                 "id":2
             },
             {
                 "name": "Marcio Menyz",
-                "role": "colorist",
+                "role": "Colorist",
                 "id":3
             },
             {
                 "name": "Chip Zdarsky",
-                "role": "writer",
+                "role": "Writer",
                 "id":5
             },
             {
                 "name": "Matthew Wilson",
-                "role": "colorist (cover)",
+                "role": "Colorist (cover)",
                 "id":6
             },
 
@@ -119,18 +127,22 @@
         "characters": [
             {
                 "name": "Captain America",
+                "image":"ch-cap",
                 "id":0
             },
             {
                 "name": "Daredevil",
+                "image":"ch-dd",
                 "id":1
             },
             {
                 "name": "Elektra",
+                "image":"ch-el",
                 "id":2
             },
             {
                 "name": "Kingpin",
+                "image":"ch-kp",
                 "id":3
             }
         ],
@@ -147,58 +159,63 @@
         "creators":[
             {
                 "name": "Marco Checchetto",
-                "role": "penciler (cover)",
+                "role": "Penciler (cover)",
                 "id":0
                 
             },
             {
                 "name": "Vc Clayton Cowles",
-                "role": "letterer",
+                "role": "Letterer",
                 "id":1
             },
             {
                 "name": "Edward Devin Lewis",
-                "role": "editor",
+                "role": "Editor",
                 "id":2
             }
             ,
             {
                 "name": "Marcio Menyz",
-                "role": "colorist",
+                "role": "Colorist",
                 "id":3
             },
             {
                 "name": "Matthew Wilson",
-                "role": "colorist (cover)",
+                "role": "Colorist (cover)",
                 "id":4
             },
             {
                 "name": "Chip Zdarsky",
-                "role": "writer",
+                "role": "Writer",
                 "id":5
             }
         ],
         "characters": [
             {
                 "name": "Daredevil",
+                "image":"ch-dd",
                 "id":0
             },
             {
                 "name": "Elektra",
+                "image":"ch-el",
                 "id":1
             },
             {
                 "name": "Doctor Octopus",
+                "image":"ch-do",
                 "id":2
             },
      
             {
                 "name": "Kingpin",
+                "image":"ch-kp",
                 "id":3
             },
             
             {
                 "name": "Thunderbolts",
+                "image":"ch-tb",
                 "id":4
             }
         ],
@@ -215,34 +232,34 @@
         "creators":[
             {
                 "name": "Marco Checchetto",
-                "role": "penciler (cover)",
+                "role": "Penciler (cover)",
                 "id":0
                 
             },
             {
                 "name": "Vc Clayton Cowles",
-                "role": "letterer",
+                "role": "Letterer",
                 "id":1
             },
             {
                 "name": "Edward Devin Lewis",
-                "role": "editor",
+                "role": "Editor",
                 "id":2
             }
             ,
             {
                 "name": "Marcio Menyz",
-                "role": "colorist",
+                "role": "Colorist",
                 "id":3
             },
             {
                 "name": "Matthew Wilson",
-                "role": "colorist (cover)",
+                "role": "Colorist (cover)",
                 "id":4
             },
             {
                 "name": "Chip Zdarsky",
-                "role": "writer",
+                "role": "Writer",
                 "id":5
             }
             
@@ -250,38 +267,47 @@
         "characters": [
             {
                 "name": "Daredevil",
+                "image":"ch-dd",
                 "id":0
             },
             {
                 "name": "Elektra",
+                "image":"ch-el",
                 "id":1
             },
             {
                 "name": "Fantastic Four",
+                "image":"ch-f4",
                 "id":2
             },
             {
                 "name": "Jessica Jones",
+                "image":"ch-js",
                 "id":3
             },
             {
                 "name": "Kingpin",
+                "image":"ch-kp",
                 "id":4
             },
             {
                 "name": "Luke Cage",
+                "image":"ch-lk",
                 "id":5
             },
             {
                 "name": "Captain America",
+                "image":"ch-cap",
                 "id":6
             },
             {
                 "name": "Thunderbolts",
+                "image":"ch-tb",
                 "id":7
             },
             {
-                "name": "Spider-Man (Ben Reilly",
+                "name": "Spider-Man (Ben Reilly)",
+                "image":"ch-sp",
                 "id":8
             }
         ],
@@ -298,76 +324,86 @@
         "creators":[
             {
                 "name": "Marco Checchetto",
-                "role": "penciler (cover)",
+                "role": "Penciler (cover)",
                 "id":0
                 
             },
             {
                 "name": "Vc Clayton Cowles",
-                "role": "letterer",
+                "role": "Letterer",
                 "id":1
             },
             {
                 "name": "Edward Devin Lewis",
-                "role": "editor",
+                "role": "Editor",
                 "id":2
             }
             ,
             {
                 "name": "Marcio Menyz",
-                "role": "colorist",
+                "role": "Colorist",
                 "id":3
             },
             {
                 "name": "Chip Zdarsky",
-                "role": "writer",
+                "role": "Writer",
                 "id":4
             },
             {
                 "name": "Matthew Wilson",
-                "role": "colorist (cover)",
+                "role": "Colorist (cover)",
                 "id":5
             }
         ],
         "characters": [
             {
                 "name": "Daredevil",
+                "image":"ch-dd",
                 "id":0
             },
             {
                 "name": "Elektra",
+                "image":"ch-el",
                 "id":1
             },
             {
                 "name": "Fantastic Four",
+                "image":"ch-f4",
                 "id":2
             },
             {
                 "name": "Jessica Jones",
+                "image":"ch-js",
                 "id":3
             },
             {
                 "name": "Kingpin",
+                "image":"ch-kp",
                 "id":4
             },
             {
                 "name": "Luke Cage",
+                "image":"ch-lk",
                 "id":5
             },
             {
                 "name": "Thunderbolts",
+                "image":"ch-tb",
                 "id":6
             },
             {
                 "name": "Captain America",
+                "image":"ch-cap",
                 "id":7
             },
             {
                 "name": "Spider-Man (Ben Reilly)",
+                "image":"ch-sp",
                 "id":8
             },
             {
                 "name": "Taskmaster",
+                "image":"ch-tm",
                 "id":9
             }
         ],
@@ -384,68 +420,76 @@
         "creators":[
             {
                 "name": "Marco Checchetto",
-                "role": "penciler (cover)",
+                "role": "Penciler (cover)",
                 "id":0
                 
             },
             {
                 "name": "Vc Clayton Cowles",
-                "role": "letterer",
+                "role": "Letterer",
                 "id":1
             },
             {
                 "name": "Edward Devin Lewis",
-                "role": "editor",
+                "role": "Editor",
                 "id":2
             }
             ,
             {
                 "name": "Marcio Menyz",
-                "role": "colorist",
+                "role": "Colorist",
                 "id":3
             },
             {
                 "name": "Chip Zdarsky",
-                "role": "writer",
+                "role": "Writer",
                 "id":4
             },
             {
                 "name": "Matthew Wilson",
-                "role": "colorist (cover)",
+                "role": "Colorist (cover)",
                 "id":5
             }
         ],
         "characters": [
             {
                 "name": "Daredevil",
+                "image":"ch-dd",
                 "id":0
             },
             {
                 "name": "Elektra",
+                "image":"ch-el",
                 "id":1
             },
             {
                 "name": "Fantastic Four",
+                "image":"ch-f4",
                 "id":2
             },
             {
                 "name": "Jessica Jones",
+                "image":"ch-js",
                 "id":3
             },
             {
                 "name": "Kingpin",
+                "image":"ch-kp",
                 "id":4
             },
             {
                 "name": "Luke Cage",
+                "image":"ch-lk",
                 "id":5
             },
             {
                 "name": "Captain America",
+                "image":"ch-cap",
                 "id":6
             },
             {
                 "name": "Thunderbolts",
+                "image":"ch-tb",
                 "id":7
             }
         ],
