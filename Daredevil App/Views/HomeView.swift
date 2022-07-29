@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var tabSelection = 1
     init() {
         UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance.init(idiom: .unspecified)
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color("white"))
@@ -15,7 +16,7 @@ struct HomeView: View {
        }
     var body: some View {
         // Create tabview for display purposes
-        TabView{
+        TabView(selection:$tabSelection){
             //  Main feature character view
             FeaturedCharacterView().tabItem {
                 VStack{
@@ -25,7 +26,7 @@ struct HomeView: View {
                     
                     
                 }
-            }
+            }.tag(1)
             //  Comics display by list
             ComicsListView().tabItem {
                 VStack{
@@ -33,9 +34,9 @@ struct HomeView: View {
                     Text("Comics").foregroundColor(Color("white"))
                     
                 }
-            }
+            }.tag(2)
             // ComicStore display by list
-            BookStoresListView().tabItem {
+            BookStoresListView(tabSelection: $tabSelection).tabItem {
                 VStack{
                     Image(systemName:"location.circle")
                     Text("Store").foregroundColor(Color("white"))
@@ -43,7 +44,7 @@ struct HomeView: View {
                     
                     
                 }
-            }
+            }.tag(3)
         }.accentColor(Color("secondary"))
         
         

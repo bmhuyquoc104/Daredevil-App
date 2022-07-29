@@ -9,6 +9,7 @@ import Foundation
 
 class BookStoreModel: ObservableObject{
     @Published var bookstores  = [BookStore]()
+    @Published var currentBookStore:BookStore?
     init (){
         getBookStore()
     }
@@ -41,6 +42,16 @@ class BookStoreModel: ObservableObject{
                 print("Can not load data from url")
             }
         
+        }
+    }
+    
+    // Function to get current book store
+    func getCurentBookStore (id:Int){
+        for bookStore in bookstores {
+            if bookStore.id == id {
+                currentBookStore = bookStore
+                break
+            }
         }
     }
 }

@@ -9,6 +9,23 @@
         "rating":"4.5",
         "hours":"08:00 - 21:30",
         "phone":"028 392 500 69",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     }
     ,
     {
@@ -21,6 +38,23 @@
         "rating":"4.5",
         "hours":"07:30 – 22:15",
         "phone":"028 222 992 61",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     }
     ,
     {
@@ -33,6 +67,23 @@
         "rating":"4.4",
         "hours":"09:00 – 18:00",
         "phone":"028 391 035 18",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     },
     {
         "id":4,
@@ -44,6 +95,23 @@
         "rating":"4.4",
         "hours":"08:00 – 22:00",
         "phone":"028 398 966 64",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     },
     {
         "id":5,
@@ -55,6 +123,23 @@
         "rating":"4.5",
         "hours":"09:00 – 21:00",
         "phone":"083 899 66 22",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     },
     {
         "id":6,
@@ -66,6 +151,23 @@
         "rating":"4.4",
         "hours":"08:00 - 22:00",
         "phone":"028 392 09 329",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     },
     {
         "id":7,
@@ -77,6 +179,23 @@
         "rating":"4.6",
         "hours":"08:00 - 22:00",
         "phone":"093 201 61 09",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     },
     {
         "id":8,
@@ -88,6 +207,23 @@
         "rating":"4.7",
         "hours":"08:00 - 20:00",
         "phone":"028 392 50 170",
+        "comics":[
+            {
+                "title":"Devil's Reign (2021) #6",
+                "image": "cm-dr#1",
+                "id":1
+            },
+            {
+                "title":"Devil's Reign (2021) #5",
+                "image": "cm-dr#2",
+                "id":2
+            },
+            {
+                "title":"Devil's Reign (2021) #2",
+                "image": "cm-dr#5",
+                "id":3
+            }
+        ]
     },
     
     

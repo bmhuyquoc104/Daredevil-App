@@ -8,30 +8,58 @@
 import SwiftUI
 
 struct BookStoresListView: View {
-    @EnvironmentObject var bookstore: BookStoreModel
-    var body: some View {
-        NavigationView {
-            ScrollView{
-                ForEach(0..<bookstore.bookstores.count, id:\.self){
-                    index in
-                    NavigationLink {
-                        BookStoreDetailView()
-                    } label: {
-                        BookStoreListRowView(image: bookstore.bookstores[index].image, title: bookstore.bookstores[index].title, hours: bookstore.bookstores[index].hours, address: bookstore.bookstores[index].address)
 
+    @EnvironmentObject var bookstore: BookStoreModel
+    @State var isPresented = false
+    @State var isToggleMap:Bool = false
+    @Binding var tabSelection: Int
+    @State private var searchText = ""
+    var body: some View {
+        if !isToggleMap{
+            NavigationView {
+                VStack {
+                    Button {
+                        isToggleMap.toggle()
+                        tabSelection = 3
+                    } label: {
+                        HStack{
+                            Spacer()
+                            Text("Switch to map view").bold().foregroundColor(Color("Pink Raspberry"))
+                        }.padding(.trailing)
                     }
 
+                    ScrollView{
+                        ForEach(searchResults){
+                            item in
+                            NavigationLink {
+                                BookStoreDetailView().onAppear {
+                                    bookstore.getCurentBookStore(id: item.id)
+                                }
+                                
+                            } label: {
+                                BookStoreListRowView(image: item.image, title: item.title, hours: item.hours, address: item.address)
+
+                            }
+
+                        }
+                    }.navigationTitle("BOOKSTORES").accentColor(.black).searchable(text: $searchText,placement:.navigationBarDrawer(displayMode: .always),prompt: "Search by name or address")
                 }
-            }.navigationTitle("BOOKSTORES").accentColor(.black)
-        }.padding()
+            }.padding()
+        }
+        else{
+            BookStoresMapView(tabSelection: $tabSelection)
+        }
+    
         
     }
-    
+    var searchResults: [BookStore] {
+            if searchText.isEmpty {
+                return bookstore.bookstores
+            } else {
+                return bookstore.bookstores.filter { $0.title.localizedCaseInsensitiveContains(searchText) || $0.address.localizedCaseInsensitiveContains(searchText)}
+            }
+        }
     
 }
 
-struct BookStoresListView_Previews: PreviewProvider {
-    static var previews: some View {
-        BookStoresListView()
-    }
-}
+

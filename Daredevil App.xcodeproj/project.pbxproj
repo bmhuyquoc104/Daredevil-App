@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442FE2082893B33F009458A2 /* BookStoresMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FE2072893B33F009458A2 /* BookStoresMapView.swift */; };
 		4439AC3D288FC632000CD1E2 /* Daredevil_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC3C288FC632000CD1E2 /* Daredevil_AppApp.swift */; };
 		4439AC3F288FC632000CD1E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC3E288FC632000CD1E2 /* HomeView.swift */; };
 		4439AC41288FC633000CD1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4439AC40288FC633000CD1E2 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		442FE2072893B33F009458A2 /* BookStoresMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoresMapView.swift; sourceTree = "<group>"; };
 		4439AC39288FC632000CD1E2 /* Daredevil App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daredevil App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4439AC3C288FC632000CD1E2 /* Daredevil_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daredevil_AppApp.swift; sourceTree = "<group>"; };
 		4439AC3E288FC632000CD1E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				4439AC57288FD676000CD1E2 /* BookStoresListView.swift */,
 				44B0E2972893A52400F862BB /* BookStoreListRowView.swift */,
 				44B0E2992893A61B00F862BB /* BookStoreDetailView.swift */,
+				442FE2072893B33F009458A2 /* BookStoresMapView.swift */,
 			);
 			path = BookStores;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				447F84AA2892CD63002B3881 /* ComicListDetailView.swift in Sources */,
 				4439AC51288FD48E000CD1E2 /* FeaturedCharacterView.swift in Sources */,
 				447F84A428927798002B3881 /* ComicDetail.swift in Sources */,
+				442FE2082893B33F009458A2 /* BookStoresMapView.swift in Sources */,
 				44B4A3CA2890EB5C00F6AD78 /* CharacterCardView.swift in Sources */,
 				44B0E2982893A52400F862BB /* BookStoreListRowView.swift in Sources */,
 				44ADADE8288FE6A5003E3D3A /* Character.swift in Sources */,

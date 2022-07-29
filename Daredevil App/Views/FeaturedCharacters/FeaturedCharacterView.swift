@@ -19,7 +19,7 @@ struct FeaturedCharacterView: View {
     
     var body: some View {
         VStack{
-         
+            
             TabView(selection: $selectedTab){
                 ForEach(0..<characterModel.characters.count, id:\.self){
                     index in
