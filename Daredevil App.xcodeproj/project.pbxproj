@@ -31,6 +31,7 @@
 		44B4A3CA2890EB5C00F6AD78 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B4A3C92890EB5C00F6AD78 /* CharacterCardView.swift */; };
 		44E25BE628915EFA006FFE7F /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E25BE528915EFA006FFE7F /* CharacterDetailView.swift */; };
 		44F99B462894E4B600F89B7F /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F99B452894E4B600F89B7F /* Coordinate.swift */; };
+		44F99B482894FA5900F89B7F /* ComicPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F99B472894FA5900F89B7F /* ComicPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		44B4A3C92890EB5C00F6AD78 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
 		44E25BE528915EFA006FFE7F /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
 		44F99B452894E4B600F89B7F /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		44F99B472894FA5900F89B7F /* ComicPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				4439AC55288FD64F000CD1E2 /* ComicsListView.swift */,
 				447F84A72892BD92002B3881 /* ComicsWriterPencilerView.swift */,
 				447F84A92892CD63002B3881 /* ComicListDetailView.swift */,
+				44F99B472894FA5900F89B7F /* ComicPreviewView.swift */,
 			);
 			path = Comics;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E25BE628915EFA006FFE7F /* CharacterDetailView.swift in Sources */,
+				44F99B482894FA5900F89B7F /* ComicPreviewView.swift in Sources */,
 				447F84A82892BD92002B3881 /* ComicsWriterPencilerView.swift in Sources */,
 				44B0E2962893957F00F862BB /* BookStoresModel.swift in Sources */,
 				447F84A628927F3D002B3881 /* ComicsModel.swift in Sources */,

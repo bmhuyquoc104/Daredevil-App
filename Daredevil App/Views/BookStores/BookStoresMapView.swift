@@ -43,21 +43,6 @@ struct BookStoresMapView: View {
                             Text("Switch to list view").bold().foregroundColor(Color("Pink Raspberry"))
                         
                     }.padding()
-                    HStack{
-                        Button{
-                            mapRegion.span.latitudeDelta *= 0.9
-                            mapRegion.span.longitudeDelta *= 0.9
-                        }label: {
-                            Image(systemName: "plus.magnifyingglass").foregroundColor(.black)
-                        }
-                        Button{
-                            mapRegion.span.latitudeDelta /= 0.9
-                            mapRegion.span.longitudeDelta /= 0.9
-                        }label: {
-                            Image(systemName: "minus.magnifyingglass").foregroundColor(.black)
-                        }
-                    }
-                    
                 }
                 
             }

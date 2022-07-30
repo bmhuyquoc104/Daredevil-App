@@ -8,6 +8,7 @@
         "prices":"$5.99",
         "image":"cm-dr#1",
         "rating":"Rated +",
+        "currentPage": 0,
         "creators":[
             {
                 "name": "Marco Checchetto",
@@ -36,6 +37,9 @@
                 "role": "Writer",
                 "id":4
             }
+        ],
+        "previews":[
+            "cm-#dr1-1","cm-#dr1-2","cm-#dr1-3"
         ],
         "characters": [
             {
@@ -89,6 +93,7 @@
         "prices":"$4.99",
         "image":"cm-dr#2",
         "rating":"Rated T+",
+        "currentPage": 0,
         "creators":[
             {
                 "name": "Marco Checchetto",
@@ -123,6 +128,8 @@
                 "id":6
             },
 
+        ],"previews":[
+            "cm-#dr2-1","cm-#dr2-2","cm-#dr2-3"
         ],
         "characters": [
             {
@@ -155,6 +162,7 @@
         "onsaleDate":"2022-02-09",
         "prices":"$4.99",
         "image":"cm-dr#3",
+        "currentPage": 0,
         "rating":"Rated T+",
         "creators":[
             {
@@ -189,6 +197,9 @@
                 "role": "Writer",
                 "id":5
             }
+        ],
+        "previews":[
+            "cm-#dr3-1","cm-#dr3-2","cm-#dr3-3"
         ],
         "characters": [
             {
@@ -227,6 +238,7 @@
         "pageCount":32,
         "onsaleDate":"2022-01-26",
         "prices":"$4.99",
+        "currentPage": 0,
         "image":"cm-dr#4",
         "rating":"Rated T+",
         "creators":[
@@ -263,6 +275,9 @@
                 "id":5
             }
             
+        ],
+        "previews":[
+            "cm-#dr4-1","cm-#dr4-2","cm-#dr4-3"
         ],
         "characters": [
             {
@@ -321,6 +336,7 @@
         "prices":"$4.99",
         "image":"cm-dr#5",
         "rating":"Rated +",
+        "currentPage": 0,
         "creators":[
             {
                 "name": "Marco Checchetto",
@@ -354,6 +370,9 @@
                 "role": "Colorist (cover)",
                 "id":5
             }
+        ],
+        "previews":[
+            "cm-#dr5-1","cm-#dr5-2","cm-#dr5-3"
         ],
         "characters": [
             {
@@ -416,6 +435,7 @@
         "onsaleDate":"2021-12-08",
         "prices":"$5.99",
         "image":"cm-dr#6",
+        "currentPage": 0,
         "rating":"Rated +",
         "creators":[
             {
@@ -450,6 +470,9 @@
                 "role": "Colorist (cover)",
                 "id":5
             }
+        ],
+        "previews":[
+            "cm-#dr6-1","cm-#dr6-2","cm-#dr6-3"
         ],
         "characters": [
             {

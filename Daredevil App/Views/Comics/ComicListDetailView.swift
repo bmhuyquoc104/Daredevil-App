@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ComicListDetailView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-
+    @State var isTogglePreview = false
     var comic:ComicDetail
     var backButton : some View { Button(action: {
            self.presentationMode.wrappedValue.dismiss()
@@ -25,6 +25,17 @@ struct ComicListDetailView: View {
         ScrollView{
             VStack(alignment:.leading,spacing:20){
                 Image(comic.image).resizable().aspectRatio(contentMode: .fill).cornerRadius(20)
+                Button {
+                    self.isTogglePreview.toggle()
+                } label: {
+                    ZStack(alignment:.center){
+                        Rectangle().frame(width: 175, height: 50).foregroundColor(Color("Pink Raspberry")).cornerRadius(5).shadow(radius: 3)
+                        Text("Preview").foregroundColor(.white).bold()
+                    }.padding(.leading,75)
+                }.fullScreenCover(isPresented: $isTogglePreview) {
+                    ComicPreviewView(comic: comic)
+                    
+                }
                 VStack(alignment:.leading,spacing:20){
                     HStack{
                         VStack (alignment:.leading,spacing:5){

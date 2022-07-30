@@ -24,7 +24,20 @@
                 "title":"Devil's Reign (2021) #2",
                 "image": "cm-dr#5",
                 "id":3
-            }
+            },
+            {
+                "title":"Devil's Reign (2021) #4",
+                "image": "cm-dr#3",
+                "id":4
+            }, {
+                "title":"Devil's Reign (2021) #1",
+                "image": "cm-dr#6",
+                "id":5
+            }, {
+                "title":"Devil's Reign (2021) #3",
+                "image": "cm-dr#3",
+                "id":6
+            },
         ]
     }
     ,
@@ -53,7 +66,20 @@
                 "title":"Devil's Reign (2021) #2",
                 "image": "cm-dr#5",
                 "id":3
-            }
+            },
+            {
+                "title":"Devil's Reign (2021) #4",
+                "image": "cm-dr#3",
+                "id":4
+            }, {
+                "title":"Devil's Reign (2021) #1",
+                "image": "cm-dr#6",
+                "id":5
+            }, {
+                "title":"Devil's Reign (2021) #3",
+                "image": "cm-dr#3",
+                "id":6
+            },
         ]
     }
     ,
@@ -69,13 +95,13 @@
         "phone":"028 391 035 18",
         "comics":[
             {
-                "title":"Devil's Reign (2021) #6",
-                "image": "cm-dr#1",
+                "title":"Devil's Reign (2021) #3",
+                "image": "cm-dr#4",
                 "id":1
             },
             {
-                "title":"Devil's Reign (2021) #5",
-                "image": "cm-dr#2",
+                "title":"Devil's Reign (2021) #1",
+                "image": "cm-dr#6",
                 "id":2
             },
             {
@@ -101,11 +127,7 @@
                 "image": "cm-dr#1",
                 "id":1
             },
-            {
-                "title":"Devil's Reign (2021) #5",
-                "image": "cm-dr#2",
-                "id":2
-            },
+       
             {
                 "title":"Devil's Reign (2021) #2",
                 "image": "cm-dr#5",
@@ -138,6 +160,14 @@
                 "title":"Devil's Reign (2021) #2",
                 "image": "cm-dr#5",
                 "id":3
+            }, {
+                "title":"Devil's Reign (2021) #4",
+                "image": "cm-dr#3",
+                "id":4
+            }, {
+                "title":"Devil's Reign (2021) #1",
+                "image": "cm-dr#6",
+                "id":5
             }
         ]
     },
@@ -153,13 +183,13 @@
         "phone":"028 392 09 329",
         "comics":[
             {
-                "title":"Devil's Reign (2021) #6",
-                "image": "cm-dr#1",
+                "title":"Devil's Reign (2021) #4",
+                "image": "cm-dr#3",
                 "id":1
             },
             {
-                "title":"Devil's Reign (2021) #5",
-                "image": "cm-dr#2",
+                "title":"Devil's Reign (2021) #1",
+                "image": "cm-dr#6",
                 "id":2
             },
             {
@@ -181,19 +211,14 @@
         "phone":"093 201 61 09",
         "comics":[
             {
-                "title":"Devil's Reign (2021) #6",
-                "image": "cm-dr#1",
+                "title":"Devil's Reign (2021) #3",
+                "image": "cm-dr#4",
                 "id":1
             },
             {
                 "title":"Devil's Reign (2021) #5",
                 "image": "cm-dr#2",
                 "id":2
-            },
-            {
-                "title":"Devil's Reign (2021) #2",
-                "image": "cm-dr#5",
-                "id":3
             }
         ]
     },
@@ -209,8 +234,8 @@
         "phone":"028 392 50 170",
         "comics":[
             {
-                "title":"Devil's Reign (2021) #6",
-                "image": "cm-dr#1",
+                "title":"Devil's Reign (2021) #4",
+                "image": "cm-dr#3",
                 "id":1
             },
             {
@@ -222,6 +247,11 @@
                 "title":"Devil's Reign (2021) #2",
                 "image": "cm-dr#5",
                 "id":3
+            },
+            {
+                "title":"Devil's Reign (2021) #1",
+                "image": "cm-dr#6",
+                "id":4
             }
         ]
     },

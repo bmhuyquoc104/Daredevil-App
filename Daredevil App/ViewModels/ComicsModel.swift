@@ -56,4 +56,13 @@ class ComicsModel: ObservableObject{
         }
     }
     
+    // Function to update current page in previews
+    func updatePage(id:Int,page:Int){
+        for var comic in comicDetails{
+            if (comic.id == id){
+                comic.currentPage = page
+            }
+        }
+    }
+    
 }
