@@ -6,10 +6,12 @@
 //
 
 import Foundation
+import CoreLocation
 
 class BookStoreModel: ObservableObject{
     @Published var bookstores  = [BookStore]()
     @Published var currentBookStore:BookStore?
+    @Published var points: [CLLocationCoordinate2D]?
     init (){
         getBookStore()
     }
@@ -32,6 +34,8 @@ class BookStoreModel: ObservableObject{
                 do {
                     // Create arr to store decoded value from data
                     let bookstoresArr = try decoder.decode([BookStore].self, from: data)
+                 
+                    
                   
                 // Load the data to the published variable
                     bookstores = bookstoresArr

@@ -16,7 +16,7 @@ struct BookStoreDetailView: View {
                       
                         VStack {
                             Image(bookStore.currentBookStore?.image ?? "").resizable().clipShape(Circle()).frame(width: 180, height: 180)
-                            Text(bookStore.currentBookStore?.title ?? "").font(.largeTitle).frame(width:250).multilineTextAlignment(.center)
+                            Text(bookStore.currentBookStore?.title ?? "").font(.largeTitle).frame(width:250).multilineTextAlignment(.center).foregroundColor(Color("Pink Raspberry"))
 
                             ScrollView {
                                 VStack (spacing:20){

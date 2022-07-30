@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 struct BookStore:Identifiable,Decodable {
     var id:Int
@@ -18,6 +19,7 @@ struct BookStore:Identifiable,Decodable {
     var hours:String
     var phone:String
     var comics:[ComicsInBookStore]
+    
     static func testBookStore () -> BookStore {
         let comic1 = ComicsInBookStore(id: 1, title: "Devil's Reign (2021) #6", image: "cm-dr#1")
         let comic2 = ComicsInBookStore(id: 2, title: "Devil's Reign (2021) #1", image: "cm-dr#6")
