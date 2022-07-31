@@ -136,6 +136,5 @@ struct ComicListDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let testComicDetail = ComicDetail.testComicDetail()
         ComicListDetailView(comic: testComicDetail)
-        
     }
 }

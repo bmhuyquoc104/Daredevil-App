@@ -60,7 +60,6 @@ struct ComicPreviewView: View {
             }.padding(.top,10)
         }
     }
-    
 }
 
 struct ComicPreviewView_Previews: PreviewProvider {

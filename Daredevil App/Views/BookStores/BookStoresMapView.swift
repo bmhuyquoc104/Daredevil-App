@@ -75,7 +75,6 @@ struct BookStoresMapView: View {
         else{
             BookStoresListView(tabSelection: $tabSelection)
         }
-        
     }
 }
 

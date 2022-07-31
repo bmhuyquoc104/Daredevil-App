@@ -84,7 +84,6 @@ struct BookStoresListView: View {
             return bookstore.bookstores.filter { $0.title.localizedCaseInsensitiveContains(searchText) || $0.address.localizedCaseInsensitiveContains(searchText)}
         }
     }
-    
 }
 
 
