@@ -78,7 +78,7 @@ Daredevil App is the application that made by Huy Vo to let the Daredevil as wel
 -    Custom map annotation for all bookstores
 -    Search bar for searching bookstore by name and address
 -    Tab View and Grid View for difference and better UI display to avoid boring the user
--     Preview function that let the user to read 3 first pages of each comic
+-    Preview function that let the user to read 3 first pages of each comic
 
 ### :key: Further Improvemance
 
