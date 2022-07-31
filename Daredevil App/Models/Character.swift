@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 26/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 26/07/2022)
+ */
+
 //
 //  Character.swift
 //  Daredevil App
@@ -7,6 +18,8 @@
 
 import Foundation
 
+// Character model
+// Add decodable and identifiable type for decode from json and load to the model
 struct Character: Decodable,Identifiable {
     var id :Int
     var description: String
@@ -20,19 +33,20 @@ struct Character: Decodable,Identifiable {
     var movies: [Movie]
     var comics: [Comic]
     
+    // Function to generate dummy data for testing in single view
     static func testCharacter() -> Character{
         let attributes = Attributes(intelligence: 3, strength: 3, speed: 2,durability: 2, energyProjection: 4, fightingSkills: 5)
         let personalInfo = PersonalInfo(height: "1.8m", weight: "83.91kg",gender: "Male", occupation: "Lawyer", citizenship: "American")
         let movie1 = Movie(id: 1, title: "sieu nhan1", image: "daredevil")
         let movie2 = Movie(id: 2, title: "sieu nhan2", image: "daredevil")
         let movie3 = Movie(id: 3, title: "sieu nhan3", image: "daredevil")
-
+        
         let movies:[Movie] = [movie1,movie2,movie3]
         
         let comic1 = Comic(id: 1, title: "sieu nhan1", image: "daredevil")
         let comic2 = Comic(id: 2, title: "sieu nhan2", image: "daredevil")
         let comic3 = Comic(id: 3, title: "sieu nhan3", image: "daredevil")
-
+        
         let comics:[Comic] = [comic1,comic2,comic3]
         
         let creatorsAppearance = CreatorsAppearance(creators: "Stan Lee,Bill Everett", debut: "1964")
@@ -41,6 +55,8 @@ struct Character: Decodable,Identifiable {
     }
 }
 
+// Attributes model to represent the attribute object in the character model
+// Add decodable type for decode from json and load to the model
 struct Attributes:Decodable {
     var intelligence:Int
     var strength:Int
@@ -50,6 +66,8 @@ struct Attributes:Decodable {
     var fightingSkills:Int
 }
 
+// PersonalInfo model to represent the PersonalInfo object in the character model
+// Add decodable type for decode from json and load to the model
 struct PersonalInfo:Decodable{
     var height: String
     var weight:String
@@ -58,17 +76,23 @@ struct PersonalInfo:Decodable{
     var citizenship:String
 }
 
+// CreatorsAppearance model to represent the CreatorsAppearance object in the character model
+// Add decodable type for decode from json and load to the model
 struct CreatorsAppearance:Decodable{
     var creators:String
     var debut : String
 }
 
+// Movie model to represent the Movie object in the character model
+// Add decodable type for decode from json and load to the model
 struct Movie: Decodable,Identifiable{
     var id:Int
     var title :String
     var image :String
 }
 
+// Comic model to represent the Comic object in the character model
+// Add decodable type for decode from json and load to the model
 struct Comic: Decodable,Identifiable{
     var id:Int
     var title:String

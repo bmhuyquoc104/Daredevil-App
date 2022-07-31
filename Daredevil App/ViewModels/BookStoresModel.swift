@@ -1,4 +1,15 @@
 //
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 29/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 29/07/2022)
+ */
+
 //  BookStoresModel.swift
 //  Daredevil App
 //
@@ -9,9 +20,11 @@ import Foundation
 import CoreLocation
 
 class BookStoreModel: ObservableObject{
+    // Published variable for tracking change when it occur for bookstore array and current book store
     @Published var bookstores  = [BookStore]()
     @Published var currentBookStore:BookStore?
-    @Published var points: [CLLocationCoordinate2D]?
+    
+    // Initializer delegation
     init (){
         getBookStore()
     }
@@ -34,10 +47,10 @@ class BookStoreModel: ObservableObject{
                 do {
                     // Create arr to store decoded value from data
                     let bookstoresArr = try decoder.decode([BookStore].self, from: data)
-                 
                     
-                  
-                // Load the data to the published variable
+                    
+                    
+                    // Load the data to the published variable
                     bookstores = bookstoresArr
                 } catch  {
                     print("Can not decode data")
@@ -45,7 +58,7 @@ class BookStoreModel: ObservableObject{
             } catch  {
                 print("Can not load data from url")
             }
-        
+            
         }
     }
     

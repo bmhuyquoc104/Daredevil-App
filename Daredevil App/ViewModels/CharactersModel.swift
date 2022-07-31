@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 26/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 26/07/2022)
+ */
+
 //
 //  CharactersModel.swift
 //  Daredevil App
@@ -8,12 +19,15 @@
 import Foundation
 
 class CharacterModel:ObservableObject {
+    // Published variable for tracking change when it occur
     @Published var characters:[Character] = [Character]()
     
+    // Initializer delegation
     init(){
         getCharactersFromLocal()
     }
     
+    // Function to load the character data from local
     func getCharactersFromLocal () {
         // Create path
         let pathString = Bundle.main.path(forResource: "Characters", ofType: "json")
@@ -31,8 +45,8 @@ class CharacterModel:ObservableObject {
                 do {
                     // Create arr to store decoded value from data
                     let characterArr = try decoder.decode([Character].self, from: data)
-                  
-//                     Load the data to the published variable
+                    
+                    // Load the data to the published variable
                     characters = characterArr
                 } catch  {
                     print("Can not decode data")
@@ -40,7 +54,7 @@ class CharacterModel:ObservableObject {
             } catch  {
                 print("Can not load data from url")
             }
-        
+            
         }
     }
 }

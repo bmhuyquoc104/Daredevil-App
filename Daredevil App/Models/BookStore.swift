@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 29/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 29/07/2022)
+ */
+
 //
 //  BookStore.swift
 //  Daredevil App
@@ -8,6 +19,8 @@
 import Foundation
 import CoreLocation
 
+// BookStore model
+// Add decodable and identifiable type for decode from json and load to the model
 struct BookStore:Identifiable,Decodable {
     var id:Int
     var lat:Double
@@ -20,6 +33,7 @@ struct BookStore:Identifiable,Decodable {
     var phone:String
     var comics:[ComicsInBookStore]
     
+    // Function to generate dummy data for testing in single view
     static func testBookStore () -> BookStore {
         let comic1 = ComicsInBookStore(id: 1, title: "Devil's Reign (2021) #6", image: "cm-dr#1")
         let comic2 = ComicsInBookStore(id: 2, title: "Devil's Reign (2021) #1", image: "cm-dr#6")
@@ -29,6 +43,8 @@ struct BookStore:Identifiable,Decodable {
     }
 }
 
+// ComicsInBookStore model to represent the ComicsInBookStore object in the bookstore model
+// Add decodable type for decode from json and load to the model
 struct ComicsInBookStore: Identifiable,Decodable{
     var id:Int
     var title:String

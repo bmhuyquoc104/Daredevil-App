@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 28/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 28/07/2022)
+ */
+
 //
 //  Comics.swift
 //  Daredevil App
@@ -7,6 +18,8 @@
 
 import Foundation
 
+// ComicDetail model
+// Add decodable and identifiable type for decode from json and load to the model
 struct ComicDetail:Identifiable,Decodable{
     var id:Int
     var title:String
@@ -21,6 +34,7 @@ struct ComicDetail:Identifiable,Decodable{
     var currentPage:Int
     var previews:[String]
     
+    // Function to generate dummy data for testing in single view
     static func testComicDetail() -> ComicDetail {
         
         let creator1 = Creator(name: "Marco Checchetto", role: "inker (cover)",id:1)
@@ -38,12 +52,16 @@ struct ComicDetail:Identifiable,Decodable{
     }
 }
 
+// Creator model to represent the Creator object in the comicDetail model
+// Add decodable type for decode from json and load to the model
 struct Creator: Decodable,Identifiable{
     var name:String
     var role:String
     var id:Int
 }
 
+// ComicCharacter model to represent the ComicCharacter object in the comicDetail model
+// Add decodable type for decode from json and load to the model
 struct ComicCharacter: Decodable, Identifiable{
     var name:String
     var id:Int

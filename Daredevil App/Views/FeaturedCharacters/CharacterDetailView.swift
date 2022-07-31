@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 27/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 27/07/2022)
+ */
+
 //
 //  CharacterDetailView.swift
 //  Daredevil App
@@ -8,16 +19,20 @@
 import SwiftUI
 
 struct CharacterDetailView: View {
+    // Declare the presentation mode from the environment object passing from other view
     @Environment(\.presentationMode) var presentationMode
+    // Render by passing character
     var character:Character
+    
     var body: some View {
-        
         VStack (alignment:.leading,spacing:-270){
+            // Show the image and header section
             GeometryReader { geo in
                 ZStack{
                     Rectangle().foregroundColor(Color(character.cardBackground)).ignoresSafeArea()
                     VStack{
                         HStack{
+                            // Button to dismiss the current full cover view
                             Button {
                                 presentationMode.wrappedValue.dismiss()
                                 
@@ -28,7 +43,6 @@ struct CharacterDetailView: View {
                             Spacer()
                             Text(character.name).bold().font(.system(size: 22)).foregroundColor(.white).padding(.trailing,50)
                             Spacer()
-                            
                         }
                         Image(character.image
                         ).resizable().aspectRatio(contentMode: .fit)
@@ -36,9 +50,11 @@ struct CharacterDetailView: View {
                     
                 }.frame(width: geo.size.width, height: 250)
             }
-            
+            // Show the character info
             ScrollView (){
+                // Show the character personal info section
                 VStack (alignment: .leading, spacing: 40){
+                    // Check if the character is a person or organization. If organization, skip the personal info and attributes section
                     if (character.name != "The Hand"){
                         VStack(alignment: .leading,spacing:10){
                             Text("Personal Information").bold().font(.system(size: 20)).foregroundColor(Color(character.cardBackground))
@@ -75,6 +91,8 @@ struct CharacterDetailView: View {
                             }
                             
                         }
+                        
+                        // Show the attributes section
                         VStack (alignment: .leading,spacing:10){
                             Text("Attributes").bold().font(.system(size: 20)).foregroundColor(Color(character.cardBackground))
                             HStack(){
@@ -98,7 +116,6 @@ struct CharacterDetailView: View {
                                         .foregroundColor(Color(character.cardBackground))
                                     Rectangle().frame(width: 200/7*(CGFloat(character.attributes.strength)) , height: 20)
                                         .foregroundColor(Color(character.cardBackground))
-                                    
                                 }
                             }
                             HStack(){
@@ -111,7 +128,6 @@ struct CharacterDetailView: View {
                                         .foregroundColor(Color(character.cardBackground))
                                     Rectangle().frame(width: 200/7*(CGFloat(character.attributes.speed)) , height: 20)
                                         .foregroundColor(Color(character.cardBackground))
-                                    
                                 }
                             }
                             HStack(){
@@ -123,7 +139,6 @@ struct CharacterDetailView: View {
                                         .foregroundColor(Color(character.cardBackground))
                                     Rectangle().frame(width: 200/7*(CGFloat(character.attributes.durability)) , height: 20)
                                         .foregroundColor(Color(character.cardBackground))
-                                    
                                 }
                             }
                             HStack(){
@@ -135,7 +150,6 @@ struct CharacterDetailView: View {
                                         .foregroundColor(Color(character.cardBackground))
                                     Rectangle().frame(width: 200/7*(CGFloat(character.attributes.energyProjection)) , height: 20)
                                         .foregroundColor(Color(character.cardBackground))
-                                    
                                 }
                             }
                             HStack(){
@@ -147,16 +161,12 @@ struct CharacterDetailView: View {
                                         .foregroundColor(Color(character.cardBackground))
                                     Rectangle().frame(width: 200/7*(CGFloat(character.attributes.fightingSkills)) , height: 20)
                                         .foregroundColor(Color(character.cardBackground))
-                                    
                                 }
                             }
-                            
-                            
-                            
                         }
                     }
-                    
                     else{
+                        // Show the character creators section
                         VStack(alignment: .leading,spacing:10){
                             Text("Creators & Appearance").bold().padding(.bottom,5).font(.system(size: 20)).foregroundColor(Color(character.cardBackground))
                             HStack{
@@ -167,11 +177,10 @@ struct CharacterDetailView: View {
                                 Text("Debut:")
                                 Text(character.creatorsAppearance.debut).bold()
                             }
-                            
                         }
-                        
                     }
                     
+                    // Show the latest movies section
                     VStack(alignment:.leading,spacing:20){
                         Text("Latest Movie:").bold().font(.system(size: 20)).foregroundColor(Color(character.cardBackground))
                         ScrollView(.horizontal,showsIndicators: false){
@@ -190,6 +199,7 @@ struct CharacterDetailView: View {
                         }
                     }
                     
+                    // Show the latest comic section
                     VStack(alignment:.leading,spacing:20){
                         Text("Latest Comics:").bold().font(.system(size: 20)).foregroundColor(Color(character.cardBackground))
                         ScrollView(.horizontal,showsIndicators: false){
@@ -209,10 +219,7 @@ struct CharacterDetailView: View {
                         }
                     }
                 }.padding()
-                
             }.padding()
-            
-            
         }
     }
 }

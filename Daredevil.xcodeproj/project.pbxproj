@@ -15,6 +15,7 @@
 		4439AC51288FD48E000CD1E2 /* FeaturedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC50288FD48E000CD1E2 /* FeaturedCharacterView.swift */; };
 		4439AC56288FD64F000CD1E2 /* ComicsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC55288FD64F000CD1E2 /* ComicsListView.swift */; };
 		4439AC58288FD676000CD1E2 /* BookStoresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4439AC57288FD676000CD1E2 /* BookStoresListView.swift */; };
+		4469ED5528950DEB00B4F955 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4469ED5428950DEB00B4F955 /* Launch Screen.storyboard */; };
 		447F84A22892741F002B3881 /* Comics.json in Resources */ = {isa = PBXBuildFile; fileRef = 447F84A12892741F002B3881 /* Comics.json */; };
 		447F84A428927798002B3881 /* ComicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F84A328927798002B3881 /* ComicDetail.swift */; };
 		447F84A628927F3D002B3881 /* ComicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F84A528927F3D002B3881 /* ComicsModel.swift */; };
@@ -30,13 +31,13 @@
 		44B0E29A2893A61B00F862BB /* BookStoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0E2992893A61B00F862BB /* BookStoreDetailView.swift */; };
 		44B4A3CA2890EB5C00F6AD78 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B4A3C92890EB5C00F6AD78 /* CharacterCardView.swift */; };
 		44E25BE628915EFA006FFE7F /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E25BE528915EFA006FFE7F /* CharacterDetailView.swift */; };
-		44F99B462894E4B600F89B7F /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F99B452894E4B600F89B7F /* Coordinate.swift */; };
+		44F99B462894E4B600F89B7F /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F99B452894E4B600F89B7F /* PointOfInterest.swift */; };
 		44F99B482894FA5900F89B7F /* ComicPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F99B472894FA5900F89B7F /* ComicPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		442FE2072893B33F009458A2 /* BookStoresMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoresMapView.swift; sourceTree = "<group>"; };
-		4439AC39288FC632000CD1E2 /* Daredevil App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daredevil App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4439AC39288FC632000CD1E2 /* Daredevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daredevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4439AC3C288FC632000CD1E2 /* Daredevil_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daredevil_AppApp.swift; sourceTree = "<group>"; };
 		4439AC3E288FC632000CD1E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4439AC40288FC633000CD1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		4439AC50288FD48E000CD1E2 /* FeaturedCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCharacterView.swift; sourceTree = "<group>"; };
 		4439AC55288FD64F000CD1E2 /* ComicsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsListView.swift; sourceTree = "<group>"; };
 		4439AC57288FD676000CD1E2 /* BookStoresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoresListView.swift; sourceTree = "<group>"; };
+		4469ED5428950DEB00B4F955 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		447F84A12892741F002B3881 /* Comics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Comics.json; sourceTree = "<group>"; };
 		447F84A328927798002B3881 /* ComicDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetail.swift; sourceTree = "<group>"; };
 		447F84A528927F3D002B3881 /* ComicsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsModel.swift; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 		44B0E2992893A61B00F862BB /* BookStoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreDetailView.swift; sourceTree = "<group>"; };
 		44B4A3C92890EB5C00F6AD78 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
 		44E25BE528915EFA006FFE7F /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
-		44F99B452894E4B600F89B7F /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		44F99B452894E4B600F89B7F /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		44F99B472894FA5900F89B7F /* ComicPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +88,7 @@
 		4439AC3A288FC632000CD1E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4439AC39288FC632000CD1E2 /* Daredevil App.app */,
+				4439AC39288FC632000CD1E2 /* Daredevil.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +133,7 @@
 				4439AC53288FD61A000CD1E2 /* Comics */,
 				4439AC52288FD612000CD1E2 /* FeaturedCharacters */,
 				4439AC3E288FC632000CD1E2 /* HomeView.swift */,
+				4469ED5428950DEB00B4F955 /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -141,7 +144,7 @@
 				44ADADE7288FE6A5003E3D3A /* Character.swift */,
 				447F84A328927798002B3881 /* ComicDetail.swift */,
 				44B0E2932893936C00F862BB /* BookStore.swift */,
-				44F99B452894E4B600F89B7F /* Coordinate.swift */,
+				44F99B452894E4B600F89B7F /* PointOfInterest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -191,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4439AC38288FC632000CD1E2 /* Daredevil App */ = {
+		4439AC38288FC632000CD1E2 /* Daredevil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4439AC47288FC633000CD1E2 /* Build configuration list for PBXNativeTarget "Daredevil App" */;
+			buildConfigurationList = 4439AC47288FC633000CD1E2 /* Build configuration list for PBXNativeTarget "Daredevil" */;
 			buildPhases = (
 				4439AC35288FC632000CD1E2 /* Sources */,
 				4439AC36288FC632000CD1E2 /* Frameworks */,
@@ -203,9 +206,9 @@
 			);
 			dependencies = (
 			);
-			name = "Daredevil App";
+			name = Daredevil;
 			productName = "Daredevil App";
-			productReference = 4439AC39288FC632000CD1E2 /* Daredevil App.app */;
+			productReference = 4439AC39288FC632000CD1E2 /* Daredevil.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4439AC34288FC632000CD1E2 /* Build configuration list for PBXProject "Daredevil App" */;
+			buildConfigurationList = 4439AC34288FC632000CD1E2 /* Build configuration list for PBXProject "Daredevil" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +239,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4439AC38288FC632000CD1E2 /* Daredevil App */,
+				4439AC38288FC632000CD1E2 /* Daredevil */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4469ED5528950DEB00B4F955 /* Launch Screen.storyboard in Resources */,
 				44ADADE6288FE581003E3D3A /* Characters.json in Resources */,
 				447F84A22892741F002B3881 /* Comics.json in Resources */,
 				44B0E292289384C900F862BB /* Bookstore.json in Resources */,
@@ -271,7 +275,7 @@
 				44ADADEA288FE760003E3D3A /* CharactersModel.swift in Sources */,
 				44B0E2942893936C00F862BB /* BookStore.swift in Sources */,
 				44B0E29A2893A61B00F862BB /* BookStoreDetailView.swift in Sources */,
-				44F99B462894E4B600F89B7F /* Coordinate.swift in Sources */,
+				44F99B462894E4B600F89B7F /* PointOfInterest.swift in Sources */,
 				447F84AA2892CD63002B3881 /* ComicListDetailView.swift in Sources */,
 				4439AC51288FD48E000CD1E2 /* FeaturedCharacterView.swift in Sources */,
 				447F84A428927798002B3881 /* ComicDetail.swift in Sources */,
@@ -415,7 +419,7 @@
 				INFOPLIST_FILE = "Daredevil-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
@@ -446,7 +450,7 @@
 				INFOPLIST_FILE = "Daredevil-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
@@ -466,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4439AC34288FC632000CD1E2 /* Build configuration list for PBXProject "Daredevil App" */ = {
+		4439AC34288FC632000CD1E2 /* Build configuration list for PBXProject "Daredevil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4439AC45288FC633000CD1E2 /* Debug */,
@@ -475,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4439AC47288FC633000CD1E2 /* Build configuration list for PBXNativeTarget "Daredevil App" */ = {
+		4439AC47288FC633000CD1E2 /* Build configuration list for PBXNativeTarget "Daredevil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4439AC48288FC633000CD1E2 /* Debug */,

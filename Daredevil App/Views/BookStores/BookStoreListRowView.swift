@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 29/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 29/07/2022)
+ */
+
 //
 //  BookStoreListRowView.swift
 //  Daredevil App
@@ -8,6 +19,7 @@
 import SwiftUI
 
 struct BookStoreListRowView: View {
+    // Required parameters passing from other views
     var image: String
     var title: String
     var hours: String

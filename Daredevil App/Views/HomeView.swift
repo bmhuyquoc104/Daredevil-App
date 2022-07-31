@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 26/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 26/07/2022)
+ */
+
 //
 //  ContentView.swift
 //  Daredevil App
@@ -8,12 +19,15 @@
 import SwiftUI
 
 struct HomeView: View {
+    // State variable to check the current tab selection
     @State private var tabSelection = 1
+    // Initializer delegation
     init() {
+        // Customize the tab bar for the whole app
         UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance.init(idiom: .unspecified)
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color("white"))
-        UITabBar.appearance().barTintColor = UIColor(Color("secondary"))
-       }
+        UITabBar.appearance().barTintColor = UIColor(Color("Pink Raspberry"))
+    }
     var body: some View {
         // Create tabview for display purposes
         TabView(selection:$tabSelection){
@@ -23,8 +37,6 @@ struct HomeView: View {
                     Image(systemName: "photo.circle")
                         .resizable()
                     Text("Characters").foregroundColor(Color("white"))
-                    
-                    
                 }
             }.tag(1)
             //  Comics display by list
@@ -35,21 +47,14 @@ struct HomeView: View {
                     
                 }
             }.tag(2)
-            // ComicStore display by list
+            // BookStore display by list
             BookStoresListView(tabSelection: $tabSelection).tabItem {
                 VStack{
                     Image(systemName:"location.circle")
                     Text("Store").foregroundColor(Color("white"))
-
-                    
-                    
                 }
             }.tag(3)
-        }.accentColor(Color("secondary"))
-        
-        
-        
-        
+        }.accentColor(Color("Pink Raspberry"))
     }
 }
 

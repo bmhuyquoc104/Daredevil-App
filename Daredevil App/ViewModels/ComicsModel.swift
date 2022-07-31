@@ -1,3 +1,14 @@
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 1
+ Author: Your name (e.g. Võ Quốc Huy)
+ ID: Your student id (e.g. s3823236)
+ Created  date: dd/mm/yyyy (e.g. 28/07/2022)
+ Last modified: dd/mm/yyyy (e.g. 28/07/2022)
+ */
+
 //
 //  ComicsModel.swift
 //  Daredevil App
@@ -8,9 +19,11 @@
 import Foundation
 
 class ComicsModel: ObservableObject{
+    // Published variable for tracking change when it occur to the comic array and current comic
     @Published var comicDetails:[ComicDetail] = [ComicDetail]()
     @Published var currentComic:ComicDetail?
     
+    // Initializer delegation
     init(){
         getComicDetails()
     }
@@ -33,8 +46,8 @@ class ComicsModel: ObservableObject{
                 do {
                     // Create arr to store decoded value from data
                     let comicDetailArr = try decoder.decode([ComicDetail].self, from: data)
-                  
-                // Load the data to the published variable
+                    
+                    // Load the data to the published variable
                     comicDetails = comicDetailArr
                 } catch  {
                     print("Can not decode data")
@@ -42,7 +55,7 @@ class ComicsModel: ObservableObject{
             } catch  {
                 print("Can not load data from url")
             }
-        
+            
         }
     }
     
