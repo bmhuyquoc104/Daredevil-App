@@ -36,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4402380B2896BA1A0092753F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		442FE2072893B33F009458A2 /* BookStoresMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoresMapView.swift; sourceTree = "<group>"; };
 		4439AC39288FC632000CD1E2 /* Daredevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daredevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4439AC3C288FC632000CD1E2 /* Daredevil_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daredevil_AppApp.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				4439AC3C288FC632000CD1E2 /* Daredevil_AppApp.swift */,
 				4439AC40288FC633000CD1E2 /* Assets.xcassets */,
 				4439AC42288FC633000CD1E2 /* Preview Content */,
+				4402380B2896BA1A0092753F /* README.md */,
 			);
 			path = "Daredevil App";
 			sourceTree = "<group>";
