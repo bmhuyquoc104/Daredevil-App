@@ -7,6 +7,7 @@
   ID: Your student id (e.g. s3823236)
   Created  date: dd/mm/yyyy (e.g. 30/07/2022)
   Last modified: dd/mm/yyyy (e.g. 30/07/2022)
+  Acknowledgement: Snipper code for image from Mr Tom Huynh
 */
 
 //
@@ -27,16 +28,77 @@ struct ComicPreviewView: View {
     @State var page = 0
     // Render by passing comic from other views
     var comic: ComicDetail
+    // State variable for track the scale of the image
+    @State private var isAnimating: Bool = false
+    @State private var imageScale: CGFloat = 1
+    @State private var imageOffset: CGSize = .zero
+
+    // function for reset the state of the image
+    func resetImageState() {
+      return withAnimation(.spring()) {
+        imageScale = 1
+        imageOffset = .zero
+      }
+    }
     
     var body: some View {
         ZStack(alignment:.topLeading){
             TabView(selection: $page) {
                 ForEach(comic.previews.indices,id:\.self) {
                     index in
-                    VStack () {
-                        Image(comic.previews[index]).resizable().aspectRatio(contentMode: .fit).frame(width: 350, height: 600 ).tag(index)
-                        Text("Page: \(page + 1)").italic().bold().offset(x:100,y:0)
-                    }.padding()
+                    ZStack () {
+                        Text("Page: \(page + 1)").italic().bold().offset(x:100,y:350)
+                        Image(comic.previews[index]).resizable().aspectRatio(contentMode: .fit).frame(width: 350, height: 650 ).tag(index).animation(.linear(duration: 1), value: isAnimating)
+                            .offset(x: imageOffset.width, y: imageOffset.height)
+                            .scaleEffect(imageScale)
+                        // MARK: TAP GESTURE
+                            .onTapGesture(count: 2, perform: {
+                                if imageScale == 1 {
+                                    withAnimation(.spring()) {
+                                        imageScale = 4
+                                    }
+                                } else {
+                                    resetImageState()
+                                }
+                            })// MARK: DRAG GESTURE
+                            .gesture(
+                                DragGesture()
+                                    .onChanged { value in
+                                        withAnimation(.linear(duration: 1)) {
+                                            imageOffset = value.translation
+                                        }
+                                    }
+                                    .onEnded { _ in
+                                        if imageScale <= 1 {
+                                            resetImageState()
+                                        }
+                                    }
+                            )
+                        
+                        // MARK: MAGNIFICATION GESTURE
+                            .gesture(
+                                MagnificationGesture()
+                                    .onChanged { value in
+                                        withAnimation(.linear(duration: 1)) {
+                                            if imageScale >= 1 && imageScale <= 5 {
+                                                imageScale = value
+                                            } else if imageScale > 5 {
+                                                imageScale = 5
+                                            }
+                                        }
+                                    }
+                                    .onEnded { _ in
+                                        if imageScale > 5 {
+                                            imageScale = 5
+                                        } else if imageScale <= 1 {
+                                            resetImageState()
+                                        }
+                                    }
+                            )
+                        
+                    }.padding() .onAppear(perform: {
+                        isAnimating = true
+                    })
                 }
             }
             // custom tav view display
